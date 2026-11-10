@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GCD-Sim: công cụ sinh dữ liệu giả lập sạc–xả</title>
+<style>
+  :root{--bg:#f7f8fa;--card:#fff;--ink:#1d2430;--mute:#5b6472;--line:#e3e7ee;--real:#a0782b;--syn:#1f8a5b;--acc:#2f5d9e}
+  @media (prefers-color-scheme:dark){:root{--bg:#14171c;--card:#1d2128;--ink:#e8ebf0;--mute:#9aa3b2;--line:#2e343e;--real:#d9a74a;--syn:#3cbf86;--acc:#7ea6e0}}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);font-size:14px}
+  header{padding:18px 24px 6px}
+  h1{font-size:20px;margin:0 0 4px}
+  header p{margin:0;color:var(--mute);max-width:900px;line-height:1.5}
+  .wrap{display:grid;grid-template-columns:300px 1fr;gap:16px;padding:16px 24px 32px}
+  @media (max-width:860px){.wrap{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+  .card h2{font-size:14px;margin:0 0 10px}
+  label{display:block;margin:10px 0 3px;color:var(--mute);font-size:12.5px}
+  input[type=number],select,textarea{width:100%;padding:6px 8px;border:1px solid var(--line);border-radius:7px;background:var(--bg);color:var(--ink);font:inherit}
+  textarea{height:90px;font-family:ui-monospace,Menlo,monospace;font-size:12px}
+  .hint{color:var(--mute);font-size:12px;line-height:1.45;margin-top:4px}
+  button{font:inherit;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:7px 12px;cursor:pointer}
+  button.primary{background:var(--acc);border-color:var(--acc);color:#fff;width:100%;margin-top:14px;padding:9px;font-weight:600}
+  .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:14px}
+  .tile{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+  .tile .v{font-size:20px;font-weight:650}
+  .tile .k{color:var(--mute);font-size:12px;margin-top:2px;line-height:1.35}
+  .tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+  .tabs button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+  .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:8px}
+  .row select{width:auto}
+  svg text{fill:var(--mute);font-size:11px}
+  svg .ax{stroke:var(--mute);stroke-width:1}
+  svg .grid{stroke:var(--line);stroke-width:1}
+  table{border-collapse:collapse;width:100%;font-size:12.5px}
+  th,td{padding:5px 8px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
+  th{color:var(--mute);font-weight:600}
+  .scroll{overflow:auto;max-height:460px}
+  .ok{color:var(--syn);font-weight:600}.warn{color:#c9752b;font-weight:600}
+  .legend{display:flex;gap:16px;color:var(--mute);font-size:12px;margin:4px 0 0}
+  .legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:-1px}
+  .msg{margin-top:8px;font-size:12.5px;color:var(--mute)}
+</style>
+</head>
+<body>
+<header>
+  <h1>GCD-Sim · Công cụ sinh dữ liệu giả lập sạc–xả cho điện cực siêu tụ</h1>
+  <p>Mỗi "lần đo ảo" lặp lại phép đo GCD trên cùng một điện cực: lấy đúng số liệu gốc rồi cộng các sai số thường gặp trong phòng thí nghiệm (sai số lặp lại, sai số cân khối lượng, nhiễu thiết bị). Ed, Pd và thời gian xả được tính lại bằng đúng công thức của lab nên dữ liệu ảo luôn tự nhất quán.</p>
+</header>
+
+<div class="wrap">
+  <aside>
+    <div class="card">
+      <h2>1. Dữ liệu gốc</h2>
+      <div class="hint" id="srcInfo"></div>
+      <label>Dán bảng khác (các cột: tỉ lệ, J, Csp, Pd; cách nhau bởi tab, dấu phẩy hoặc dấu cách)</label>
+      <textarea id="paste" placeholder="0.1	9.0909	816.69	7683.58&#10;0.1	18.1818	692.46	7868.84"></textarea>
+      <div class="row" style="margin-top:6px">
+        <button id="btnPaste">Dùng bảng đã dán</button>
+        <button id="btnReset">Về số liệu cô Hồng</button>
+      </div>
+      <input type="file" id="file" accept=".csv,.txt" style="font-size:12px;margin-top:4px">
+    </div>
+
+    <div class="card" style="margin-top:12px">
+      <h2>2. Tham số sai số</h2>
+      <label>Số lần đo ảo cho mỗi điện cực</label>
+      <input type="number" id="nRuns" value="1000" min="1" max="20000">
+      <div class="hint">1000 lần → mỗi điểm đo gốc có 1000 bản ảo (gấp 1000 lần dữ liệu gốc).</div>
+      <label>Sai số lặp lại giữa các lần đo (%)</label>
+      <input type="number" id="repErr" value="3" step="0.5" min="0">
+      <label>Sai số cân khối lượng điện cực (%)</label>
+      <input type="number" id="massErr" value="2" step="0.5" min="0">
+      <div class="hint">Dùng chung cho cả 6 mức dòng của một lần đo, vì mỗi điện cực chỉ cân một lần. Lệch khối lượng làm J, Csp, Ed, Pd cùng lệch.</div>
+      <label>Nhiễu thiết bị đo (%)</label>
+      <input type="number" id="measErr" value="1" step="0.5" min="0">
+      <label>Cửa sổ điện áp ΔV (V)</label>
+      <input type="number" id="dv" value="2.1" step="0.1" min="0.1">
+      <label>Hạt giống ngẫu nhiên (seed)</label>
+      <input type="number" id="seed" value="42">
+      <button class="primary" id="btnRun">Sinh dữ liệu ảo</button>
+      <div class="msg" id="runMsg"></div>
+    </div>
+  </aside>
+
+  <main>
+    <div class="tiles" id="tiles"></div>
+    <div class="card">
+      <div class="tabs" id="tabs"></div>
+      <div id="view"></div>
+    </div>
+    <div class="card" style="margin-top:12px">
+      <h2>Xuất dữ liệu</h2>
+      <div class="row">
+        <button id="btnDl">Tải CSV toàn bộ dữ liệu ảo</button>
+        <button id="btnCopy">Sao chép 200 dòng đầu</button>
+      </div>
+      <div class="msg" id="dlMsg"></div>
+    </div>
+  </main>
+</div>
+
+<script>
+// ---------------- Số liệu gốc (NTM.Hong & LD.Phuc): [tỉ lệ, J (A/g), Csp (F/g), Pd (W/kg)]
+const LAB = [[0.025,3.846154,48.094,2610.008],[0.025,7.692308,61.1487,4907.653],[0.025,19.230769,40.7575,13681.371],[0.025,30.769231,33.3731,21137.385],[0.025,38.461538,29.6989,25396.011],[0.025,76.923077,15.5716,45610.235],[0.05,8.333333,580.7207,6908.158],[0.05,16.666667,456.3146,13598.963],[0.05,41.666667,291.3862,29999.844],[0.05,66.666667,208.1618,42606.998],[0.05,83.333333,167.5843,49342.146],[0.05,166.666667,63.8896,83319.533],[0.075,5.555556,78.1826,3447.784],[0.075,11.111111,56.5918,7439.185],[0.075,27.777778,32.398,17756.388],[0.075,44.444444,22.3601,28345.406],[0.075,55.555556,18.7921,37316.883],[0.075,111.111111,2.061,37067.247],[0.1,9.090909,816.6893,7683.576],[0.1,18.181818,692.4581,7868.842],[0.1,45.454545,479.1427,35494.075],[0.1,72.727273,365.7901,51390.078],[0.1,90.909091,309.1717,60042.596],[0.1,181.818182,83.5325,95997.039],[0.25,3.225806,59.8882,2275.332],[0.25,6.451613,52.0784,4788.889],[0.25,16.129032,39.0671,11560.323],[0.25,25.806452,31.2402,17845.763],[0.25,32.258065,27.4524,21992.654],[0.25,64.516129,16.4401,46249.455],[0.5,3.448276,520.827,2835.684],[0.5,6.896552,434.2323,5876.503],[0.5,17.241379,290.8833,13293.769],[0.5,27.586207,218.2631,17517.292],[0.5,34.482759,187.5172,22652.469],[0.5,68.965517,83.8205,33043.254],[1,2.380952,107.1606,1832.424],[1,4.761905,85.1584,3547.53],[1,11.904762,51.0029,7596.684],[1,19.047619,33.9237,10726.721],[1,23.809524,26.3367,12585.034],[1,47.619048,9.5229,27241.95],[1.75,3.333333,127.0156,2857.822],[1.75,6.666667,98.6266,2532.364],[1.75,16.666667,81.2076,11898.429],[1.75,26.666667,82.9567,17133.307],[1.75,33.333333,40.2157,22166.7],[1.75,66.666667,28.6168,31657.636]];
+
+let real = LAB.map(r=>({ratio:r[0],J:r[1],Csp:r[2],Pd:r[3]}));
+let srcName = "Số liệu cô Hồng (8 tỉ lệ × 6 mật độ dòng)";
+let syn = null, cfgUsed = null, summary = null;
+let tab = "csp", selRatio = null, selJ = 0;
+
+const $ = id => document.getElementById(id);
+const fmt = (x,d=2)=> (x==null||isNaN(x))?"–":Number(x).toLocaleString("vi-VN",{maximumFractionDigits:d,minimumFractionDigits:0});
+const ratios = () => [...new Set(real.map(r=>r.ratio))].sort((a,b)=>a-b);
+
+// ---------------- RNG có seed (mulberry32) + phân phối chuẩn (Box–Muller)
+function rngFactory(seed){
+  let a = (seed>>>0)||1;
+  const u = ()=>{a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;};
+  let spare=null;
+  const n = (mu=0,sd=1)=>{ if(sd===0) return mu;
+    if(spare!==null){const s=spare;spare=null;return mu+sd*s;}
+    let x,y,r; do{x=2*u()-1;y=2*u()-1;r=x*x+y*y;}while(r>=1||r===0);
+    const f=Math.sqrt(-2*Math.log(r)/r); spare=y*f; return mu+sd*x*f; };
+  return {u,n};
+}
+
+// ---------------- Thuật toán sinh dữ liệu (giống gcdsim.py, chế độ "neo theo số gốc")
+function generate(cfg){
+  const R = cfg.nRuns, rng = rngFactory(cfg.seed), dv=cfg.dv;
+  const rows=[];
+  for(const ratio of ratios()){
+    const g = real.filter(r=>r.ratio===ratio).sort((a,b)=>a.J-b.J);
+    for(let run=0; run<R; run++){
+      const dm = rng.n(0,cfg.massErr), gm = 1/(1+dm);
+      for(const p of g){
+        const csp = p.Csp*Math.exp(rng.n(0,cfg.repErr))*(1+rng.n(0,cfg.measErr))*gm;
+        const J = p.J*gm;
+        let vbar = (p.Pd/(1000*p.J))*Math.exp(rng.n(0,cfg.repErr))*(1+rng.n(0,cfg.measErr));
+        vbar = Math.min(Math.max(vbar,0.02),0.98*dv);
+        const ed = csp*dv*dv/7.2, pd = 1000*J*vbar, dt = ed*3600/pd;
+        rows.push({ratio,run,Jn:p.J,J,Csp:csp,Ed:ed,Pd:pd,Vbar:vbar,dt,dm});
+      }
+    }
+  }
+  return rows;
+}
+
+// ---------------- Đường cong GCD (giả định hình dạng) + tính lại Csp bằng công thức của lab
+function gcdCurve(csp,J,vbar,dv,rng,jref){
+  const ir = Math.min(0.03*dv*J/(jref||J), 0.5*(dv-vbar)), vs = dv-ir;
+  vbar = Math.min(vbar,0.95*vs);
+  const p = vs/vbar-1, dt = csp*dv*dv/(2*J*vbar), tc = dt/0.95, N=300;
+  const t=[],v=[];
+  for(let i=0;i<N;i++){const x=i/(N-1); t.push(x*tc); v.push(dv*Math.pow(x,0.85)+rng.n(0,0.002));}
+  for(let i=0;i<N;i++){const x=i/(N-1); t.push(tc+x*dt); v.push(vs*Math.pow(1-x,p)+rng.n(0,0.002));}
+  return {t,v,tc};
+}
+function cspFromCurve(c,J,dv){
+  let s=0; for(let i=1;i<c.t.length;i++){ if(c.t[i-1]<c.tc) continue;
+    s += 0.5*(Math.max(c.v[i],0)+Math.max(c.v[i-1],0))*(c.t[i]-c.t[i-1]); }
+  return 2*J*s/(dv*dv);
+}
+const pct=(arr,q)=>{const a=[...arr].sort((x,y)=>x-y);const i=(a.length-1)*q,lo=Math.floor(i),hi=Math.ceil(i);return a[lo]+(a[hi]-a[lo])*(i-lo);};
+
+// ---------------- Kiểm chứng
+function validate(cfg){
+  const dev=[], inBand=[];
+  const byPoint = new Map();
+  for(const s of syn){const k=s.ratio+"|"+s.Jn; if(!byPoint.has(k)) byPoint.set(k,[]); byPoint.get(k).push(s);}
+  for(const r of real){
+    const s = byPoint.get(r.ratio+"|"+r.J); if(!s) continue;
+    const c = s.map(x=>x.Csp), med = pct(c,0.5);
+    dev.push(Math.abs(med-r.Csp)/r.Csp*100);
+    inBand.push(r.Csp>=pct(c,0.05)&&r.Csp<=pct(c,0.95));
+  }
+  // xu hướng Csp theo J trong từng lần đo ảo
+  let same=0,total=0;
+  const rs = ratios();
+  for(const ratio of rs){
+    const g = real.filter(r=>r.ratio===ratio).sort((a,b)=>a.J-b.J);
+    const sign = g.slice(1).map((p,i)=>Math.sign(p.Csp-g[i].Csp));
+    const s = syn.filter(x=>x.ratio===ratio), K=g.length;
+    for(let i=0;i+K<=s.length;i+=K){
+      let ok=true; for(let k=1;k<K;k++) if(Math.sign(s[i+k].Csp-s[i+k-1].Csp)!==sign[k-1]){ok=false;break;}
+      same+=ok; total++;
+    }
+  }
+  // điện cực tốt nhất tại J nhỏ nhất
+  const first = rs.map(ratio=>real.filter(r=>r.ratio===ratio).sort((a,b)=>a.J-b.J)[0]);
+  const best = first.reduce((a,b)=>b.Csp>a.Csp?b:a).ratio;
+  let bestSame=0; const R=cfgUsed.nRuns;
+  const firstSyn = new Map(); // run -> {ratio:Csp}
+  for(const s of syn){ const f=first.find(f=>f.ratio===s.ratio); if(s.Jn!==f.J) continue;
+    if(!firstSyn.has(s.run)) firstSyn.set(s.run,[]); firstSyn.get(s.run).push(s); }
+  for(const [,arr] of firstSyn){ if(arr.reduce((a,b)=>b.Csp>a.Csp?b:a).ratio===best) bestSame++; }
+  // tính lại Csp từ đường cong
+  const rng=rngFactory(cfg.seed+1); let errMax=0,errSum=0; const n=Math.min(200,syn.length);
+  for(let i=0;i<n;i++){ const s=syn[Math.floor(rng.u()*syn.length)];
+    const c=gcdCurve(s.Csp,s.J,s.Vbar,cfg.dv,rng); const e=Math.abs(cspFromCurve(c,s.J,cfg.dv)-s.Csp)/s.Csp*100;
+    errMax=Math.max(errMax,e); errSum+=e; }
+  const rel = []; for(const [,s] of byPoint){const c=s.map(x=>x.Csp);const m=c.reduce((a,b)=>a+b,0)/c.length;
+    rel.push(Math.sqrt(c.reduce((a,b)=>a+(b-m)**2,0)/(c.length-1))/m*100);}
+  return {
+    nReal: real.length, nSyn: syn.length, factor: syn.length/real.length,
+    medDev: dev.reduce((a,b)=>a+b,0)/dev.length,
+    band: inBand.filter(Boolean).length/inBand.length*100,
+    spread: rel.reduce((a,b)=>a+b,0)/rel.length,
+    trend: same/total*100, best, bestSame: bestSame/firstSyn.size*100,
+    curveErrMax: errMax, curveErrMean: errSum/n,
+  };
+}
+
+// ---------------- Biểu đồ SVG đơn giản
+function niceTicks(lo,hi,n=5){const span=hi-lo||1, step0=span/n, mag=Math.pow(10,Math.floor(Math.log10(step0)));
+  const step=[1,2,2.5,5,10].map(m=>m*mag).find(s=>s>=step0); const out=[]; for(let v=Math.ceil(lo/step)*step; v<=hi+1e-9; v+=step) out.push(+v.toPrecision(12)); return out;}
+function logTicks(lo,hi){const out=[];for(let e=Math.floor(Math.log10(lo));e<=Math.ceil(Math.log10(hi));e++){const v=Math.pow(10,e);if(v>=lo*0.999&&v<=hi*1.001)out.push(v);}return out;}
+function plot(o){
+  const W=o.w||760,H=o.h||380,m={l:62,r:16,t:14,b:44};
+  const all=o.series.flatMap(s=>s.pts);
+  let xs=all.map(p=>p[0]), ys=all.map(p=>p[1]);
+  let x0=o.xmin??Math.min(...xs), x1=o.xmax??Math.max(...xs), y0=o.ymin??Math.min(...ys), y1=o.ymax??Math.max(...ys);
+  if(!o.xlog){const pad=(x1-x0)*0.04||1;x0-=pad;x1+=pad;} else {x0/=1.15;x1*=1.15;}
+  if(!o.ylog){const pad=(y1-y0)*0.06||1;y0=o.ymin??Math.max(0,y0-pad);y1+=pad;} else {y0/=1.2;y1*=1.2;}
+  const fx=o.xlog?v=>m.l+(Math.log10(v)-Math.log10(x0))/(Math.log10(x1)-Math.log10(x0))*(W-m.l-m.r):v=>m.l+(v-x0)/(x1-x0)*(W-m.l-m.r);
+  const fy=o.ylog?v=>H-m.b-(Math.log10(v)-Math.log10(y0))/(Math.log10(y1)-Math.log10(y0))*(H-m.t-m.b):v=>H-m.b-(v-y0)/(y1-y0)*(H-m.t-m.b);
+  let s=`<svg viewBox="0 0 ${W} ${H}" width="100%" role="img">`;
+  const xt=o.xlog?logTicks(x0,x1):niceTicks(x0,x1), yt=o.ylog?logTicks(y0,y1):niceTicks(y0,y1);
+  for(const v of yt){s+=`<line class="grid" x1="${m.l}" x2="${W-m.r}" y1="${fy(v)}" y2="${fy(v)}"/><text x="${m.l-6}" y="${fy(v)+4}" text-anchor="end">${fmt(v,2)}</text>`;}
+  for(const v of xt){s+=`<text x="${fx(v)}" y="${H-m.b+16}" text-anchor="middle">${fmt(v,2)}</text>`;}
+  s+=`<line class="ax" x1="${m.l}" x2="${W-m.r}" y1="${H-m.b}" y2="${H-m.b}"/><line class="ax" x1="${m.l}" x2="${m.l}" y1="${m.t}" y2="${H-m.b}"/>`;
+  s+=`<text x="${(m.l+W-m.r)/2}" y="${H-6}" text-anchor="middle">${o.xlabel}</text><text transform="translate(14 ${(m.t+H-m.b)/2}) rotate(-90)" text-anchor="middle">${o.ylabel}</text>`;
+  for(const se of o.series){
+    if(se.bars){ for(const b of se.pts){const xa=fx(b[0]),xb=fx(b[2]); s+=`<rect x="${xa}" y="${fy(b[1])}" width="${Math.max(xb-xa-1,1)}" height="${H-m.b-fy(b[1])}" fill="${se.color}" opacity="${se.alpha??0.7}"/>`;} continue; }
+    if(se.vline){ s+=`<line x1="${fx(se.pts[0][0])}" x2="${fx(se.pts[0][0])}" y1="${m.t}" y2="${H-m.b}" stroke="${se.color}" stroke-width="2.5"/>`; continue; }
+    if(se.line){ s+=`<polyline fill="none" stroke="${se.color}" stroke-width="${se.lw||2}" opacity="${se.alpha??1}" points="${se.pts.map(p=>fx(p[0]).toFixed(1)+","+fy(p[1]).toFixed(1)).join(" ")}"/>`; }
+    if(se.r){ for(const p of se.pts) s+=`<circle cx="${fx(p[0]).toFixed(1)}" cy="${fy(p[1]).toFixed(1)}" r="${se.r}" fill="${se.color}" opacity="${se.alpha??1}"/>`; }
+  }
+  return s+"</svg>";
+}
+const css = n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const PALETTE=["#4c78a8","#f58518","#54a24b","#e45756","#72b7b2","#b279a2","#ff9da6","#9d755d"];
+
+// ---------------- Giao diện
+const TABS=[["csp","Csp theo mật độ dòng"],["ragone","Đường Ragone"],["hist","Phân bố tại một điểm"],["curve","Đường sạc–xả ảo"],["table","Bảng dữ liệu ảo"],["real","Số liệu gốc"]];
+function renderTabs(){ $("tabs").innerHTML=TABS.map(([k,t])=>`<button data-k="${k}" class="${k===tab?"on":""}">${t}</button>`).join("");
+  $("tabs").querySelectorAll("button").forEach(b=>b.onclick=()=>{tab=b.dataset.k;renderTabs();renderView();}); }
+
+function ratioSelect(){ return `<label style="margin:0">Điện cực (tỉ lệ)</label><select id="selR">${ratios().map(r=>`<option ${r===selRatio?"selected":""} value="${r}">${r}</option>`).join("")}</select>`; }
+function bindRatio(){ const e=$("selR"); if(e) e.onchange=()=>{selRatio=+e.value;selJ=0;renderView();}; }
+
+function sampleSyn(rows, n){ // lấy mẫu giả ngẫu nhiên để vẽ (tránh trùng nhịp 6 mức dòng)
+  if(rows.length<=n) return rows; const r=rngFactory(123), o=[]; for(let i=0;i<n;i++) o.push(rows[Math.floor(r.u()*rows.length)]); return o; }
+
+function renderView(){
+  const v=$("view");
+  if(tab==="real"){
+    v.innerHTML=`<div class="hint" style="margin-bottom:8px">${srcName}. V̄ = Pd / (1000·J) là điện thế xả trung bình suy ra từ số liệu.</div><div class="scroll"><table><tr><th>Tỉ lệ</th><th>J (A/g)</th><th>Csp (F/g)</th><th>Ed (Wh/kg)</th><th>Pd (W/kg)</th><th>V̄ (V)</th></tr>${
+      real.map(r=>`<tr><td>${r.ratio}</td><td>${fmt(r.J,3)}</td><td>${fmt(r.Csp,2)}</td><td>${fmt(r.Csp*cfgOrDefault().dv**2/7.2,2)}</td><td>${fmt(r.Pd,1)}</td><td>${fmt(r.Pd/(1000*r.J),3)}</td></tr>`).join("")}</table></div>`;
+    return;
+  }
+  if(!syn){ v.innerHTML=`<div class="hint">Bấm “Sinh dữ liệu ảo” để bắt đầu.</div>`; return; }
+  if(selRatio==null||!ratios().includes(selRatio)) selRatio=ratios().includes(0.1)?0.1:ratios()[0];
+  const real_r = real.filter(r=>r.ratio===selRatio).sort((a,b)=>a.J-b.J);
+  const syn_r = syn.filter(s=>s.ratio===selRatio);
+  const legend=`<div class="legend"><span><i style="background:${css("--real")}"></i>Số liệu gốc</span><span><i style="background:${css("--syn")};opacity:.6"></i>Dữ liệu ảo</span></div>`;
+  if(tab==="csp"){
+    v.innerHTML=`<div class="row">${ratioSelect()}</div>`+plot({xlabel:"Mật độ dòng J (A/g)",ylabel:"Csp (F/g)",series:[
+      {pts:sampleSyn(syn_r,3000).map(s=>[s.J,s.Csp]),r:1.6,color:css("--syn"),alpha:0.18},
+      {pts:real_r.map(r=>[r.J,r.Csp]),line:true,r:4.5,color:css("--real")}]})+legend;
+    bindRatio(); return;
+  }
+  if(tab==="ragone"){
+    const series=[]; ratios().forEach((r,i)=>{ const s=syn.filter(x=>x.ratio===r);
+      series.push({pts:sampleSyn(s,500).map(x=>[x.Pd,x.Ed]),r:1.5,color:PALETTE[i%8],alpha:0.2}); });
+    ratios().forEach((r,i)=>series.push({pts:real.filter(x=>x.ratio===r).sort((a,b)=>a.J-b.J).map(x=>[x.Pd,x.Csp*cfgUsed.dv**2/7.2]),line:true,r:3,color:PALETTE[i%8]}));
+    v.innerHTML=plot({xlog:true,ylog:true,xlabel:"Mật độ công suất Pd (W/kg)",ylabel:"Mật độ năng lượng Ed (Wh/kg)",series,h:420})+
+      `<div class="legend" style="flex-wrap:wrap">${ratios().map((r,i)=>`<span><i style="background:${PALETTE[i%8]}"></i>${r}</span>`).join("")}<span>· đường nối = số liệu gốc, chấm mờ = dữ liệu ảo</span></div>`;
+    return;
+  }
+  if(tab==="hist"){
+    const p = real_r[Math.min(selJ,real_r.length-1)];
+    const c = syn_r.filter(s=>s.Jn===p.J).map(s=>s.Csp);
+    const lo=Math.min(...c,p.Csp), hi=Math.max(...c,p.Csp), B=40, w=(hi-lo)/B||1, cnt=new Array(B).fill(0);
+    c.forEach(x=>cnt[Math.min(B-1,Math.floor((x-lo)/w))]++);
+    const p5=pct(c,0.05),p95=pct(c,0.95);
+    v.innerHTML=`<div class="row">${ratioSelect()}<label style="margin:0">Mức dòng</label><select id="selJ">${real_r.map((r,i)=>`<option value="${i}" ${i===selJ?"selected":""}>J = ${fmt(r.J,2)} A/g</option>`).join("")}</select></div>`+
+      plot({xlabel:"Csp (F/g)",ylabel:"Số mẫu ảo",ymin:0,xmin:lo,xmax:hi+w,series:[{bars:true,pts:cnt.map((k,i)=>[lo+i*w,k,lo+(i+1)*w]),color:css("--syn")},{vline:true,pts:[[p.Csp,0]],color:css("--real")}]})+
+      `<div class="legend"><span><i style="background:${css("--real")}"></i>Số gốc: ${fmt(p.Csp,2)} F/g</span><span><i style="background:${css("--syn")}"></i>${c.length} giá trị ảo · trung vị ${fmt(pct(c,0.5),2)} · dải 5–95%: ${fmt(p5,1)} – ${fmt(p95,1)} F/g</span></div>`;
+    bindRatio(); $("selJ").onchange=e=>{selJ=+e.target.value;renderView();}; return;
+  }
+  if(tab==="curve"){
+    const rng=rngFactory(7), series=[], cols=["#3b2c85","#2f6f9e","#2b9b8a","#6cc06a","#b9d64a","#e0b33a"];
+    const jref = real_r[0].J;
+    real_r.forEach((p,k)=>{ syn_r.filter(s=>s.Jn===p.J).slice(0,4).forEach(s=>{
+      const c=gcdCurve(s.Csp,s.J,s.Vbar,cfgUsed.dv,rng); const step=6;
+      series.push({pts:c.t.filter((_,i)=>i%step===0).map((t,i)=>[t,c.v[i*step]]),line:true,lw:1.2,color:cols[k%6],alpha:0.75}); }); });
+    v.innerHTML=`<div class="row">${ratioSelect()}</div>`+plot({xlabel:"Thời gian (s)",ylabel:"Điện thế (V)",ymin:0,series,h:400})+
+      `<div class="legend" style="flex-wrap:wrap">${real_r.map((p,k)=>`<span><i style="background:${cols[k%6]}"></i>J = ${fmt(p.J,1)}</span>`).join("")}</div>
+      <div class="hint">4 lần đo ảo cho mỗi mức dòng. Nhánh xả được dựng sao cho diện tích dưới đường cong khớp đúng Csp, và điện thế trung bình bằng V̄. Hình dạng đường cong là giả định; sẽ thay bằng đường cong thật khi có file thô từ máy đo.</div>`;
+    bindRatio(); return;
+  }
+  if(tab==="table"){
+    const head=["#","Tỉ lệ","Lần đo ảo","J danh định","J","Csp","Ed","Pd","V̄","Δt xả (s)","Lệch khối lượng"];
+    v.innerHTML=`<div class="hint" style="margin-bottom:6px">Hiển thị 300 dòng đầu trên tổng ${syn.length.toLocaleString("vi-VN")} dòng.</div><div class="scroll"><table><tr>${head.map(h=>`<th>${h}</th>`).join("")}</tr>${
+      syn.slice(0,300).map((s,i)=>`<tr><td>${i}</td><td>${s.ratio}</td><td>${s.run}</td><td>${fmt(s.Jn,3)}</td><td>${fmt(s.J,3)}</td><td>${fmt(s.Csp,2)}</td><td>${fmt(s.Ed,2)}</td><td>${fmt(s.Pd,1)}</td><td>${fmt(s.Vbar,3)}</td><td>${fmt(s.dt,2)}</td><td>${fmt(s.dm*100,2)}%</td></tr>`).join("")}</table></div>`;
+  }
+}
+
+function renderTiles(){
+  if(!summary){ $("tiles").innerHTML=""; return; }
+  const s=summary, t=(v,k,cls="")=>`<div class="tile"><div class="v ${cls}">${v}</div><div class="k">${k}</div></div>`;
+  $("tiles").innerHTML =
+    t(`${s.nReal} → ${s.nSyn.toLocaleString("vi-VN")}`,`Số điểm gốc → số mẫu ảo (gấp ${fmt(s.factor,0)} lần)`)+
+    t(`${fmt(s.spread,1)}%`,"Độ phân tán trung bình của dữ liệu ảo quanh mỗi điểm gốc")+
+    t(`${fmt(s.medDev,2)}%`,"Sai lệch trung vị ảo so với số gốc (Csp)",s.medDev<2?"ok":"warn")+
+    t(`${fmt(s.trend,1)}%`,"Lần đo ảo giữ đúng xu hướng Csp theo J như số gốc",s.trend>=80?"ok":"warn")+
+    t(`${fmt(s.bestSame,1)}%`,`Lần đo ảo vẫn cho tỉ lệ ${s.best} là tốt nhất (như số gốc)`,s.bestSame>=90?"ok":"warn")+
+    t(`${fmt(s.curveErrMax,3)}%`,"Sai số lớn nhất khi tính lại Csp từ đường cong ảo bằng công thức lab",s.curveErrMax<1?"ok":"warn");
+}
+
+function cfgOrDefault(){ return cfgUsed||{dv:+$("dv").value||2.1}; }
+function readCfg(){ return {nRuns:Math.max(1,Math.min(20000,Math.round(+$("nRuns").value||1000))),repErr:(+$("repErr").value||0)/100,
+  massErr:(+$("massErr").value||0)/100,measErr:(+$("measErr").value||0)/100,dv:+$("dv").value||2.1,seed:Math.round(+$("seed").value||42)}; }
+
+function run(){
+  $("runMsg").textContent="Đang sinh dữ liệu…";
+  setTimeout(()=>{ const t0=performance.now(); cfgUsed=readCfg(); syn=generate(cfgUsed); summary=validate(cfgUsed);
+    $("runMsg").textContent=`Xong: ${syn.length.toLocaleString("vi-VN")} mẫu ảo trong ${fmt((performance.now()-t0)/1000,2)} giây.`;
+    renderTiles(); renderView(); },20);
+}
+
+function setSource(rows,name){ real=rows; srcName=name; syn=null; summary=null; selRatio=null;
+  $("srcInfo").innerHTML=`<b>${name}</b><br>${rows.length} điểm đo, ${ratios().length} điện cực.`; renderTiles(); renderView(); run(); }
+
+function parseTable(text){
+  const rows=[]; for(const line of text.split(/\r?\n/)){ const parts=line.trim().split(/[\t;, ]+/).map(x=>x.replace(",", ".")).map(Number);
+    if(parts.length>=4 && parts.slice(0,4).every(x=>isFinite(x))) rows.push({ratio:parts[0],J:parts[1],Csp:parts[2],Pd:parts[3]}); }
+  return rows;
+}
+
+$("btnRun").onclick=run;
+$("btnReset").onclick=()=>setSource(LAB.map(r=>({ratio:r[0],J:r[1],Csp:r[2],Pd:r[3]})),"Số liệu cô Hồng (8 tỉ lệ × 6 mật độ dòng)");
+$("btnPaste").onclick=()=>{ const rows=parseTable($("paste").value); if(rows.length<2){$("runMsg").textContent="Không đọc được bảng: cần ít nhất 2 dòng, mỗi dòng 4 số (tỉ lệ, J, Csp, Pd).";return;} setSource(rows,"Bảng đã dán"); };
+$("file").onchange=e=>{ const f=e.target.files[0]; if(!f) return; f.text().then(t=>{ const rows=parseTable(t); if(rows.length<2){$("runMsg").textContent="Tệp không có dòng hợp lệ (tỉ lệ, J, Csp, Pd).";return;} setSource(rows,f.name); }); };
+
+function toCSV(){
+  const head="sample_id,ratio,run_id,J_nominal,J,Csp,Ed,Pd,Vbar,dt_discharge,mass_error,source";
+  const lines=[head]; syn.forEach((s,i)=>lines.push([i,s.ratio,s.run,s.Jn.toFixed(6),s.J.toFixed(6),s.Csp.toFixed(4),s.Ed.toFixed(4),s.Pd.toFixed(3),s.Vbar.toFixed(5),s.dt.toFixed(4),s.dm.toFixed(6),"synthetic"].join(",")));
+  return lines.join("\n");
+}
+$("btnCopy").onclick=async()=>{ if(!syn) return; try{ await navigator.clipboard.writeText(toCSV().split("\n").slice(0,201).join("\n")); $("dlMsg").textContent="Đã sao chép 200 dòng đầu (kèm tiêu đề)."; }catch(e){ $("dlMsg").textContent="Trình duyệt không cho sao chép ở đây."; } };
+$("btnDl").style.display="none";
+(async()=>{ try{ const dl = window.claude && await window.claude.use("downloads"); if(!dl) { $("dlMsg").textContent="Muốn có toàn bộ file, chạy bản Python: python gcdsim.py so_lieu.xlsx --out du_lieu_ao.xlsx"; return; }
+  $("btnDl").style.display=""; $("btnDl").onclick=async()=>{ if(!syn) return; try{ const c=cfgUsed;
+    await dl.save({filename:`du_lieu_ao_${syn.length}_mau_seed${c.seed}.csv`,data:new Blob([toCSV()])}); $("dlMsg").textContent="Đã gửi file để tải."; }
+    catch(e){ $("dlMsg").textContent = e&&e.code==="declined"?"Đã hủy tải.":"Không tải được ở đây; hãy dùng bản Python để xuất file."; } };
+}catch(e){} })();
+
+renderTabs();
+setSource(real,srcName);
+</script>
+</body>
+</html>
