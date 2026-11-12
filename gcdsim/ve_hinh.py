@@ -1,5 +1,5 @@
 """Vẽ các hình kiểm chứng dữ liệu ảo cho báo cáo (Chương 3).
-Chạy:  python ve_hinh.py data/so_lieu_GCD.xlsx out/hinh
+Chạy từ thư mục gốc kho mã:  python -m gcdsim.ve_hinh data/so_lieu_GCD.xlsx ket_qua/gcdsim/hinh
 """
 import sys, os
 import numpy as np
@@ -7,7 +7,7 @@ import pandas as pd
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-import gcdsim as gs
+from gcdsim import gcdsim as gs
 
 plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 10, "axes.spines.top": False,
                      "axes.spines.right": False, "figure.dpi": 150})
@@ -35,7 +35,7 @@ def main(inp, outdir):
         ax.set_ylabel("Csp (F/g)")
     fig.legend(handles=[plt.Line2D([], [], marker="o", color=REAL, label="Số liệu gốc (6 điểm)"),
                         plt.Line2D([], [], marker="o", ls="", color=SYN, alpha=.5,
-                                   label="Dữ liệu ảo (1000 lần đo ảo)")],
+                                   label=f"Dữ liệu ảo ({cfg.n_runs} lần đo ảo/điện cực)")],
                loc="upper center", ncol=2, frameon=False)
     fig.tight_layout(rect=(0, 0, 1, 0.94))
     fig.savefig(f"{outdir}/hinh_csp_theo_J.png")
@@ -66,7 +66,7 @@ def main(inp, outdir):
     lo, hi = np.percentile(s.Csp, [5, 95])
     ax.axvspan(lo, hi, color=SYN, alpha=.12, label=f"Dải 5–95%: {lo:.0f}–{hi:.0f}")
     ax.set_xlabel("Csp (F/g)"); ax.set_ylabel("Số mẫu ảo")
-    ax.set_title(f"1000 giá trị ảo tại tỉ lệ {r0:g}, J = {jj:.2f} A/g")
+    ax.set_title(f"{len(s)} giá trị ảo tại tỉ lệ {r0:g}, J = {jj:.2f} A/g")
     ax.legend(frameon=False, fontsize=9)
     fig.tight_layout(); fig.savefig(f"{outdir}/hinh_phan_bo_mot_diem.png"); plt.close(fig)
 
@@ -91,4 +91,4 @@ def main(inp, outdir):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else "out/hinh")
+    main(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else "ket_qua/gcdsim/hinh")

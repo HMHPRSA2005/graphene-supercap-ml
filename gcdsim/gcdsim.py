@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 from dataclasses import dataclass, field, asdict
 
 import numpy as np
@@ -214,7 +215,7 @@ def fit_electrodes(df: pd.DataFrame, model="auto", exclude=None,
 # ----------------------------------------------------------------------------
 @dataclass
 class SimConfig:
-    n_runs: int = 1000             # số "lần đo ảo" cho mỗi điện cực (48 điểm × 1000 = 48.000 mẫu)
+    n_runs: int = 10000            # lần đo ảo/điện cực (48 điểm × 10000 = 480.000 mẫu)
     mode: str = "anchor"           # "anchor": neo theo số đo gốc | "fit": theo quy luật khớp Csp(J)
     j_mode: str = "measured"       # (chỉ cho mode=fit) "measured" | "range" | "extrapolate"
     n_j_range: int = 12
@@ -393,7 +394,7 @@ def main():
     ap = argparse.ArgumentParser(description="Sinh dữ liệu ảo GCD từ số liệu thực nghiệm")
     ap.add_argument("input", help="file Excel của lab hoặc CSV dạng dài (ratio,J,Csp,Pd)")
     ap.add_argument("--out", default="du_lieu_ao.csv")
-    ap.add_argument("--n", type=int, default=1000, help="số lần đo ảo cho mỗi điện cực (mặc định 1000)")
+    ap.add_argument("--n", type=int, default=10000, help="số lần đo ảo cho mỗi điện cực (mặc định 10000)")
     ap.add_argument("--mode", default="anchor", choices=["anchor", "fit"])
     ap.add_argument("--repeat-err", type=float, default=0.03)
     ap.add_argument("--repeat-from-data", action="store_true")
@@ -422,17 +423,40 @@ def main():
     if a.mode == "anchor" or a.j_mode == "measured":
         point, summ = validate(df, syn, fits, cfg)
         print(json.dumps(summ, ensure_ascii=False, indent=2))
-    if a.out.lower().endswith(".xlsx"):
-        with pd.ExcelWriter(a.out) as w:
-            syn.to_excel(w, sheet_name="du_lieu_ao", index=False)
-            df.to_excel(w, sheet_name="du_lieu_goc", index=False)
-            fits_table(fits).astype(str).to_excel(w, sheet_name="quy_luat_khop", index=False)
-            pd.DataFrame([asdict(cfg)]).to_excel(w, sheet_name="cau_hinh", index=False)
+    os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
+    stem, ext = os.path.splitext(a.out)
+    tmp_out = f"{stem}.tmp{ext}"
+    try:
+        if a.out.lower().endswith(".xlsx"):
+            from openpyxl import Workbook
+
+            # Ghi tuần tự để không giữ hơn 6 triệu ô Excel trong bộ nhớ ở N=10000.
+            wb = Workbook(write_only=True)
+            sheets = [
+                ("du_lieu_ao", syn),
+                ("du_lieu_goc", df),
+                ("quy_luat_khop", fits_table(fits).astype(str)),
+                ("cau_hinh", pd.DataFrame([asdict(cfg)])),
+            ]
             if point is not None:
-                point.to_excel(w, sheet_name="kiem_chung_tung_diem", index=False)
-                pd.Series(summ).to_frame("gia_tri").to_excel(w, sheet_name="kiem_chung_tong_hop")
-    else:
-        syn.to_csv(a.out, index=False)
+                sheets.append(("kiem_chung_tung_diem", point))
+            for name, table in sheets:
+                ws = wb.create_sheet(name)
+                ws.append(list(table.columns))
+                for row in table.itertuples(index=False, name=None):
+                    ws.append(row)
+            if summ is not None:
+                ws = wb.create_sheet("kiem_chung_tong_hop")
+                ws.append([None, "gia_tri"])
+                for key, value in summ.items():
+                    ws.append([key, value])
+            wb.save(tmp_out)
+        else:
+            syn.to_csv(tmp_out, index=False)
+        os.replace(tmp_out, a.out)
+    finally:
+        if os.path.exists(tmp_out):
+            os.remove(tmp_out)
     print(f"Đã ghi {len(syn)} mẫu ảo vào {a.out}")
 
 
