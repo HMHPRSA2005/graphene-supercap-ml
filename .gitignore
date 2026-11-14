@@ -6,9 +6,9 @@ __pycache__/
 # Kết quả chạy thử nhanh trên máy cá nhân (không đưa lên GitHub)
 ket_qua/thu/
 # File lớn, sinh lại bằng lệnh GCD-Sim hoặc lấy từ sản phẩm Giai đoạn 1
-ket_qua/gcdsim/du_lieu_ao_*.xlsx
+ket_qua/**/gcdsim/du_lieu_ao_*.xlsx
 # Sản phẩm ZIP và đầu ra local có thể sinh lại; không đưa lên Git
 san_pham_*.zip
 ket_qua/**/*.zip
-ket_qua/ung_dung/
+ket_qua/**/ung_dung/
 ket_qua/thu_*/

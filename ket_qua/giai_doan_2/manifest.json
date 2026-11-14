@@ -1,0 +1,428 @@
+{
+  "phien_ban_manifest": 1,
+  "thoi_diem": "2026-11-12T13:53:57.660834+00:00",
+  "git_commit": "118cb9ec376b2ee76f4842159fb91bbd7d118994",
+  "phien_ban": {
+    "python": "3.12.10",
+    "numpy": "2.5.3",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "matplotlib": "3.11.2",
+    "openpyxl": "3.1.5"
+  },
+  "tien_do": {
+    "chinh": {
+      "da_du": 376,
+      "can_co": 376
+    },
+    "du_lieu_ao": {
+      "da_du": 600,
+      "can_co": 600
+    },
+    "so_mau": {
+      "da_du": 480,
+      "can_co": 480
+    },
+    "sigma": {
+      "da_du": 480,
+      "can_co": 480
+    },
+    "kb3": {
+      "da_du": 400,
+      "can_co": 400
+    },
+    "kb4": {
+      "da_du": 128,
+      "can_co": 128
+    },
+    "thu": {
+      "da_du": 0,
+      "can_co": 68
+    }
+  },
+  "thieu": [],
+  "tep": [
+    {
+      "ten": "bang_ch5/bang_5_2.csv",
+      "kich_thuoc": 13707,
+      "sha256": "6e21ad97cd07c7b8d824c0fd7078c7721cf178dc5dfecfe71c969dc976e39ca8"
+    },
+    {
+      "ten": "bang_ch5/bang_5_2.tex",
+      "kich_thuoc": 14993,
+      "sha256": "1054f8f922bd14b4a36bc9e86d8003968cedfa0de96243a12d2130c403cd4452"
+    },
+    {
+      "ten": "bang_ch5/bang_5_3.csv",
+      "kich_thuoc": 5717,
+      "sha256": "556ad9462aaa7f26e65456469b005ace436ae08d3323d2dc1460357ce4103e3b"
+    },
+    {
+      "ten": "bang_ch5/bang_5_3.tex",
+      "kich_thuoc": 13247,
+      "sha256": "a477386eb0d87fa2146cae03d211cd0718abb264aa44acc4fe18f60b77937754"
+    },
+    {
+      "ten": "bang_ch5/bang_5_3_tham_chieu_B5.csv",
+      "kich_thuoc": 1314,
+      "sha256": "1e7705bbdd925f00833092900f7e9b4e80b2b36ff91d058a2f4f9c6e6412431d"
+    },
+    {
+      "ten": "bang_ch5/bang_5_3_tham_chieu_B5.tex",
+      "kich_thuoc": 2735,
+      "sha256": "b6959d277fe6992d3f7b776c7d2d98853b8bb86a38f0f86b1321778e358e5324"
+    },
+    {
+      "ten": "bang_ch5/bang_5_3_wilcoxon_holm.csv",
+      "kich_thuoc": 4293,
+      "sha256": "5b914c7dc4eb7feaf14bd3dd6e12203ba32c5eb37275612a7b6b7981fdc75f00"
+    },
+    {
+      "ten": "bang_ch5/bang_5_3_wilcoxon_holm.tex",
+      "kich_thuoc": 13886,
+      "sha256": "2142de8616a761b9f3c0830e647216184d8bfeed6412931cfffb3521b378d8eb"
+    },
+    {
+      "ten": "bang_ch5/bang_5_6.csv",
+      "kich_thuoc": 6208,
+      "sha256": "9059eed86cf0c45bdec33cafb7bab107ce6deb5eff12ca081f9457980f3fe749"
+    },
+    {
+      "ten": "bang_ch5/bang_5_6.tex",
+      "kich_thuoc": 14711,
+      "sha256": "bd1f4f8913d2a96f2304fe6de2f15d70369342e2c9f7a6a11dc2d47081846889"
+    },
+    {
+      "ten": "bang_ch5/bang_kb1_theo_muc.csv",
+      "kich_thuoc": 6217,
+      "sha256": "67fdb473f3cdc4429c2431a546eea8f83cea46c6b152311702574d8e9133b980"
+    },
+    {
+      "ten": "bang_ch5/bang_kb1_theo_muc.tex",
+      "kich_thuoc": 14493,
+      "sha256": "a99efc0b1fd97b4c0a6045613ceeb6457371f898b991632d33316ef003ce5b79"
+    },
+    {
+      "ten": "bang_ch5/do_phu.csv",
+      "kich_thuoc": 4896,
+      "sha256": "823589c4ee556c8633058a29445dec988eba6a27cb8c1cb052105c97da426adb"
+    },
+    {
+      "ten": "bang_ch5/do_phu.tex",
+      "kich_thuoc": 17099,
+      "sha256": "ae9f4c93da432cf3052a32d122a1576b9107e559eea82d8859218e0e815a49fb"
+    },
+    {
+      "ten": "bang_ch5/do_phu_tung_seed.csv",
+      "kich_thuoc": 31274,
+      "sha256": "a007c2888f6506669a0eb4bd6c9c08c6ba83d3d498be0648956432667eaed5cd"
+    },
+    {
+      "ten": "bang_ch5/do_phu_tung_seed.tex",
+      "kich_thuoc": 192514,
+      "sha256": "c853c43f54cd1d9cc7568c1d366e1e85a2b3fb3f66e4310b7bec2ddf1df49ef0"
+    },
+    {
+      "ten": "bang_ch5/hinh_5_4_so_lieu.csv",
+      "kich_thuoc": 5586,
+      "sha256": "1934224d6d3442e8ba7e5376e33b870ab4208a1429bfd7b1cc033f4ca7efc52e"
+    },
+    {
+      "ten": "bang_ch5/hinh_5_4_so_lieu.tex",
+      "kich_thuoc": 12470,
+      "sha256": "ad0c7153fa21c0ca2bfabd84c265e21ee03d19faaa4f612ce65981a063878570"
+    },
+    {
+      "ten": "bang_ch5/hinh_5_5_so_lieu.csv",
+      "kich_thuoc": 4602,
+      "sha256": "ea65ffab3c7255cdf7276be58c7491476d51d88d90e19a2dc22172f8f73eaa12"
+    },
+    {
+      "ten": "bang_ch5/hinh_5_5_so_lieu.tex",
+      "kich_thuoc": 10114,
+      "sha256": "eec1310d0c67c73daf7d63ed566e58ae33c4bf265ed9ab3d20beef88df23db74"
+    },
+    {
+      "ten": "bang_ch5/hinh_5_6_so_lieu.csv",
+      "kich_thuoc": 10586,
+      "sha256": "1a5a53f03a951183de3f17bd940fe5a03f701a944d83467d51306bde9ef4e2ce"
+    },
+    {
+      "ten": "bang_ch5/hinh_5_6_so_lieu.tex",
+      "kich_thuoc": 23756,
+      "sha256": "721fda12a7617fdddf9885aa1e572b86d9d89086fb62e2927f45eb70b1046917"
+    },
+    {
+      "ten": "bang_ch5/kb3_k_dat_nguong.csv",
+      "kich_thuoc": 575,
+      "sha256": "5221247787555150874da10705cb1d204c50db548bc680a0b9af5818a0478539"
+    },
+    {
+      "ten": "bang_ch5/kb3_k_dat_nguong.tex",
+      "kich_thuoc": 4297,
+      "sha256": "57a350a328f560a4ee87610161bb5e19f4e47276fc588791ca183f51aa0c4db6"
+    },
+    {
+      "ten": "bang_ch5/phu_luc_sai_so_dien_cuc.csv",
+      "kich_thuoc": 89430,
+      "sha256": "d918a7515a234cdc2a951506ca4df0cbab48c5eaac92db4c28863e5a79a9ec25"
+    },
+    {
+      "ten": "bang_ch5/phu_luc_sai_so_dien_cuc.tex",
+      "kich_thuoc": 141731,
+      "sha256": "0919c4bcc9276dc22ff99e4a5c192d8aa01cbd1c7f73bb1f71f065820cf5d5ca"
+    },
+    {
+      "ten": "bang_ch5/ung_dung_de_xuat.csv",
+      "kich_thuoc": 733,
+      "sha256": "12869ed17aae27818a8a822a3ef3bbded83a91f70da8ea49574a2bc3ea6f899e"
+    },
+    {
+      "ten": "bang_ch5/ung_dung_de_xuat.tex",
+      "kich_thuoc": 1749,
+      "sha256": "c9296d41fa399ac3002910654b92478c490fbeafa167809c263056fe73fd7acf"
+    },
+    {
+      "ten": "bang_ch5/ung_dung_du_doan.csv",
+      "kich_thuoc": 154507,
+      "sha256": "cc757413dd8aa21af91be168c259eaf7fb3a8c46a28d87ce7dd277a75f86134d"
+    },
+    {
+      "ten": "bang_ch5/ung_dung_du_doan.tex",
+      "kich_thuoc": 266728,
+      "sha256": "105c2cdf1ce434b163f5e1d61ca6b28dce844cb7ac7a3cd6975e728b30c659b7"
+    },
+    {
+      "ten": "best/best_chung.joblib",
+      "kich_thuoc": 44224,
+      "sha256": "13c48eafec12e0851a78a25dd08d7083c1ba6cb940e52a69397cde9a52efc8a9"
+    },
+    {
+      "ten": "best/best_chung.json",
+      "kich_thuoc": 1411,
+      "sha256": "828d3fee8f430d12e712ef711ef42c36f79628dbd8d3a4f7f371a75941383d0b"
+    },
+    {
+      "ten": "best/best_co_khoang.joblib",
+      "kich_thuoc": 20894,
+      "sha256": "775cdc162ba5711e9a76b36ec03a7757f52a3689675b7303403c41dec853bb84"
+    },
+    {
+      "ten": "best/best_co_khoang.json",
+      "kich_thuoc": 1336,
+      "sha256": "3ef7835f7c2f26ce8e429c5871dbf58bd4c2ac228994f599316d456c11059d53"
+    },
+    {
+      "ten": "best/best_KB1.joblib",
+      "kich_thuoc": 15515,
+      "sha256": "d68990347de0457887adce50714b3c69c2204b1481e23e63e798f48344f3b664"
+    },
+    {
+      "ten": "best/best_KB1.json",
+      "kich_thuoc": 1183,
+      "sha256": "bfec485c7589dad23c032d438844fc6b9246349b6dc1f5461ade73d28036e1c8"
+    },
+    {
+      "ten": "best/best_KB2.joblib",
+      "kich_thuoc": 29974,
+      "sha256": "5168253ab9c4e3e76d05ec6e149fd49e1cba9e98e4156e43cb2fb9a25a3ea79d"
+    },
+    {
+      "ten": "best/best_KB2.json",
+      "kich_thuoc": 1178,
+      "sha256": "b5a3f5deac25a7d71df48f14c4ee8d2b3ab0025f287a8a303f558d9e39206076"
+    },
+    {
+      "ten": "best/diem_cau_hinh.csv",
+      "kich_thuoc": 21001,
+      "sha256": "f7bbcacdcf00d49dbd63fcf018d2325e4a722968f5854c7d43f6c0f1b06155d6"
+    },
+    {
+      "ten": "best/xep_hang_chung.csv",
+      "kich_thuoc": 9299,
+      "sha256": "95e87d101dffc552801cd82bef63795220a12e603706e86217d3bc506dcf6452"
+    },
+    {
+      "ten": "best/xep_hang_co_khoang.csv",
+      "kich_thuoc": 2737,
+      "sha256": "865c497a98903d21bd2b75ada2741f131db4faef77e54d9eee446466fe6a10d4"
+    },
+    {
+      "ten": "best/xep_hang_KB1.csv",
+      "kich_thuoc": 7195,
+      "sha256": "08c33ebac5292a995ade6db80ee3c25bd0e9570440e9a81dd52c22b2f4f0825b"
+    },
+    {
+      "ten": "best/xep_hang_KB2.csv",
+      "kich_thuoc": 7121,
+      "sha256": "0d4bae64b63699b6f8232ce999c9f2ea9cc7d609df9f8d22d3f8111363f72904"
+    },
+    {
+      "ten": "gcdsim/do_nhay.csv",
+      "kich_thuoc": 1202,
+      "sha256": "e535eb4a109eb635135df6837afdd2b7cc4c5f4a806e7d75198c25762b7101fb"
+    },
+    {
+      "ten": "gcdsim/du_lieu_ao_480000.xlsx",
+      "kich_thuoc": 53520382,
+      "sha256": "e7f68c44b3d6dd83f2902ebf5e3d8dc4aa9615689fd8b125263f8e7576cab84a"
+    },
+    {
+      "ten": "gcdsim/hinh/hinh_csp_theo_J.png",
+      "kich_thuoc": 200008,
+      "sha256": "70351bc1cec72a51b2f8702245ffb65e70f7c6f64628081b00e967c2e6435f88"
+    },
+    {
+      "ten": "gcdsim/hinh/hinh_duong_gcd_ao.png",
+      "kich_thuoc": 155721,
+      "sha256": "2f2c5267307b47ca33f69c82c5e9ffeb917c53f3f8fde2202ac161182b47733f"
+    },
+    {
+      "ten": "gcdsim/hinh/hinh_phan_bo_mot_diem.png",
+      "kich_thuoc": 31829,
+      "sha256": "f057734802021bb7cb1aa451c680e5cc9d5866faa63e694e51e8d7ae92edbf71"
+    },
+    {
+      "ten": "gcdsim/hinh/hinh_ragone_goc_va_ao.png",
+      "kich_thuoc": 129217,
+      "sha256": "b00ad1c4bd9ab9ed418f7812d7e5347ee72a661613bdad4ef1ba5d431989d3ad"
+    },
+    {
+      "ten": "gcdsim/hinh/kiem_chung_tong_hop.csv",
+      "kich_thuoc": 392,
+      "sha256": "3059c7381c841200af0a917321fa08efb39f8d440cdbe7f6ee8d49ee1ffd27f4"
+    },
+    {
+      "ten": "hinh_ch5/hinh_5_10.pdf",
+      "kich_thuoc": 42880,
+      "sha256": "98c1abc156ecb01ac40b6808a268b4d48118fbe7eeadb80128b059fa9288caa9"
+    },
+    {
+      "ten": "hinh_ch5/hinh_5_10.png",
+      "kich_thuoc": 212095,
+      "sha256": "df06ea7b5da49a04f05119cd1bc517508b1b274ae91e84b8f2fe8d8e9ee46ea5"
+    },
+    {
+      "ten": "hinh_ch5/hinh_5_2.pdf",
+      "kich_thuoc": 44400,
+      "sha256": "677501f676fec788f90f99df7210e56a2f6b2ca3209aba340d66247dbc9b623b"
+    },
+    {
+      "ten": "hinh_ch5/hinh_5_2.png",
+      "kich_thuoc": 435469,
+      "sha256": "88f05ea63b4ac10035373f096428c3cb8ece5df4a05d20a4f55b50e25193306f"
+    },
+    {
+      "ten": "hinh_ch5/hinh_5_3.pdf",
+      "kich_thuoc": 32020,
+      "sha256": "65de72499d1a7bcfd91512903db94451f5ee9559c20fdb78ab9c9d939f99081d"
+    },
+    {
+      "ten": "hinh_ch5/hinh_5_3.png",
+      "kich_thuoc": 148447,
+      "sha256": "57bb23081e45fdd083065fd1b81024c39b9393465af5c4ea8fabf115926cfc9d"
+    },
+    {
+      "ten": "hinh_ch5/hinh_5_4.pdf",
+      "kich_thuoc": 29868,
+      "sha256": "eb281599d4d3ce1842fda11b87e1f47fc734c09bf6f39311020da8b7e70fd3a3"
+    },
+    {
+      "ten": "hinh_ch5/hinh_5_4.png",
+      "kich_thuoc": 107048,
+      "sha256": "af968da2273d0a725447513d7704b8439d81ffcba75415bef4a6d180c1d77d66"
+    },
+    {
+      "ten": "hinh_ch5/hinh_5_5.pdf",
+      "kich_thuoc": 24363,
+      "sha256": "3f61393437c2dd2778d3e5b07dd6379dedc6b203bda49541fda845f5ed2e1ec6"
+    },
+    {
+      "ten": "hinh_ch5/hinh_5_5.png",
+      "kich_thuoc": 96553,
+      "sha256": "0a02a3351656fefb778ae2abb056c45f2946df6f31688c086d06144589976095"
+    },
+    {
+      "ten": "hinh_ch5/hinh_5_6.pdf",
+      "kich_thuoc": 37328,
+      "sha256": "6373e7134c1c55044f4f875a7946069c6d195ac864c1b07cf3674d5ed6ce2f94"
+    },
+    {
+      "ten": "hinh_ch5/hinh_5_6.png",
+      "kich_thuoc": 96160,
+      "sha256": "ab0a4df6923d18c1883e0cb7020aef72d9fca07338748f140f5bf77b73d4da68"
+    },
+    {
+      "ten": "hinh_ch5/hinh_5_9.pdf",
+      "kich_thuoc": 47295,
+      "sha256": "7a3b1523f2bf32855967722686ae29fa9b693a1cb75ee7b469f4e45f772ea9e3"
+    },
+    {
+      "ten": "hinh_ch5/hinh_5_9.png",
+      "kich_thuoc": 243579,
+      "sha256": "bd9874cb42edac7dd24d4e2ed313d312dbd7d00f3de25cc5f45de26346130bbf"
+    },
+    {
+      "ten": "ket_qua_kb1_kb4.csv",
+      "kich_thuoc": 16041959,
+      "sha256": "086b6b55e12d596e836548af9e46534704c5676eab71e278ef30af2efa3269d1"
+    },
+    {
+      "ten": "moi_truong.json",
+      "kich_thuoc": 9517,
+      "sha256": "18e5e98f2abc140869f0589dc21e29e5d710480bd1287fb1b93d130ddedbaf42"
+    },
+    {
+      "ten": "so_sanh/csp_theo_J_luoi_chung.pdf",
+      "kich_thuoc": 63341,
+      "sha256": "6254802447f31d11593658a42f06c37a54785368cbb7f278ef1fe2c58d6641a1"
+    },
+    {
+      "ten": "so_sanh/csp_theo_J_luoi_chung.png",
+      "kich_thuoc": 267571,
+      "sha256": "0f8189db71e66c9f8bce183af66e6f175fdb481552b557b7f084b0e48d029680"
+    },
+    {
+      "ten": "so_sanh/du_doan_luoi.csv",
+      "kich_thuoc": 459570,
+      "sha256": "fea7b7d1ee39b95bfc9539710453fcba76581ff8e3ded82dea30b5ec6370a216"
+    },
+    {
+      "ten": "so_sanh/ragone_lien_tuc.pdf",
+      "kich_thuoc": 80542,
+      "sha256": "9a7ba5ba2babd7df8e1a56ba7bab9360ff8f20963cc0867fa6ec5f68406288df"
+    },
+    {
+      "ten": "so_sanh/ragone_lien_tuc.png",
+      "kich_thuoc": 334490,
+      "sha256": "68e57b4ee70248a0f5c648744aa3e7a61d54f5a95c57b26c6d8c9f1020ac8e83"
+    },
+    {
+      "ten": "so_sanh/tom_tat.csv",
+      "kich_thuoc": 1204,
+      "sha256": "136d2c7d3f2595a9c874a6169796e490ad230f42ec840c727daf7998c9f799d9"
+    },
+    {
+      "ten": "so_sanh/xac_suat_tot_nhat.pdf",
+      "kich_thuoc": 35912,
+      "sha256": "b60e94c2014f76742a1a7898361f5ffd7be8749d997dabb17e6fc7ca31684141"
+    },
+    {
+      "ten": "so_sanh/xac_suat_tot_nhat.png",
+      "kich_thuoc": 148111,
+      "sha256": "6b7eedf39995d3ba0e1e88cd6b20be9b5c285ba8b22c10115963c268902bc73a"
+    },
+    {
+      "ten": "so_sanh/xep_hang.csv",
+      "kich_thuoc": 145960,
+      "sha256": "fa3d09bc38f5bbac1ffc1458e3639effdfabd57d158dad2b629faec927bc60e8"
+    },
+    {
+      "ten": "thoi_gian_don_vi.csv",
+      "kich_thuoc": 126946,
+      "sha256": "7825c72f38433317ffaca6f61ff577aa60cf594ce41b1a9b504616855a44b6d6"
+    }
+  ]
+}

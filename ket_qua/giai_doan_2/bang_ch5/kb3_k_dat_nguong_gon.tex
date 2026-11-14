@@ -1,0 +1,20 @@
+% Cần \usepackage{array,booktabs,longtable}
+% k nhỏ nhất quan sát được với MAPE trung bình <10%; — = chưa đạt, không ngoại suy k thiếu. Chi tiết ở kb3_k_dat_nguong.
+\par\smallskip\noindent k nhỏ nhất quan sát được với MAPE trung bình <10\%; — = chưa đạt, không ngoại suy k thiếu. Chi tiết ở kb3\_k\_dat\_nguong.\par
+\small
+\begin{longtable}{>{\raggedright\arraybackslash}p{\dimexpr0.160\linewidth-1.920\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.170\linewidth-2.040\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.110\linewidth-1.320\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.130\linewidth-1.560\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.180\linewidth-2.160\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.250\linewidth-3.000\tabcolsep\relax}}
+\toprule
+Chính sách & Mô hình & $k$ nhỏ nhất & $q(k)$ & MAPE TB (\%) & MAPE điện cực lớn nhất (\%) \\ \midrule \endhead
+thap\_\allowbreak nhat & chon\_\allowbreak dang\_\allowbreak ham & — & — & — & — \\
+thap\_\allowbreak nhat & gpr & — & — & — & — \\
+thap\_\allowbreak nhat & mlp & — & — & — & — \\
+thap\_\allowbreak nhat & ridge & — & — & — & — \\
+thap\_\allowbreak nhat & svr & — & — & — & — \\
+trai\_\allowbreak deu & chon\_\allowbreak dang\_\allowbreak ham & 5 & 0.166667 & 8.48018 & 24.2361 \\
+trai\_\allowbreak deu & gpr & — & — & — & — \\
+trai\_\allowbreak deu & mlp & — & — & — & — \\
+trai\_\allowbreak deu & ridge & 5 & 0.166667 & 8.58643 & 30.8159 \\
+trai\_\allowbreak deu & svr & 5 & 0.166667 & 5.42482 & 11.2532 \\
+\bottomrule
+\end{longtable}
+\normalsize

@@ -1,0 +1,20 @@
+% Cần \usepackage{array,booktabs}
+\begingroup
+\centering
+\small
+\begin{tabular}{>{\raggedright\arraybackslash}p{\dimexpr0.200\linewidth-2.000\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.200\linewidth-2.000\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.200\linewidth-2.000\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.200\linewidth-2.000\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.200\linewidth-2.000\tabcolsep\relax}}
+\toprule
+Mô hình & Biên $C_{sp}$ & Biên $P_d$ & Trong $C_{sp}$ & Trong $P_d$ \\
+\midrule
+Ridge & 296,61 $\pm$ 0,81 & 17,31 $\pm$ 0,10 & 239,09 $\pm$ 0,29 & 14,18 $\pm$ 0,01 \\
+SVR & 529,60 $\pm$ 11,33 & 17,49 $\pm$ 0,24 & 253,26 $\pm$ 0,73 & 14,28 $\pm$ 0,05 \\
+RF & 240,53 $\pm$ 8,95 & 18,98 $\pm$ 0,15 & 771,63 $\pm$ 15,18 & 17,32 $\pm$ 0,28 \\
+GB & 270,03 $\pm$ 5,42 & 16,27 $\pm$ 0,41 & 596,03 $\pm$ 4,95 & 15,68 $\pm$ 0,14 \\
+MLP & 282,08 $\pm$ 79,01 & 15,68 $\pm$ 1,18 & 525,00 $\pm$ 97,44 & 14,79 $\pm$ 0,43 \\
+GPR & 119,94 $\pm$ 1,19 & 14,82 $\pm$ 0,03 & 255,93 $\pm$ 1,94 & 16,64 $\pm$ 0,54 \\
+TB hình học & 119,31 & 14,83 & 254,90 & 15,83 \\
+TB theo mức & 101,14 & 12,41 & 158,55 & 13,19 \\
+\bottomrule
+\end{tabular}
+\par\smallskip{\footnotesize MAPE (\%), cách C ×100, σ = 3\%; biên = tỉ lệ 0,025 và 1,75. Trung bình điện cực rồi trung bình $\pm$ SD qua hạt giống.}
+\endgroup

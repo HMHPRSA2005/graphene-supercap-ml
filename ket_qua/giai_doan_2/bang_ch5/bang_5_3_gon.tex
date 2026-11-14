@@ -1,0 +1,18 @@
+% Cần \usepackage{array,booktabs}
+\begingroup
+\centering
+\small
+\begin{tabular}{>{\raggedright\arraybackslash}p{\dimexpr0.167\linewidth-2.000\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.167\linewidth-2.000\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.167\linewidth-2.000\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.167\linewidth-2.000\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.167\linewidth-2.000\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.167\linewidth-2.000\tabcolsep\relax}}
+\toprule
+KB & Mô hình & A & B & C & D \\
+\midrule
+KB1 & GPR & 12,82 & 26,18 & 34,40 & 9,01 \\
+KB1 & MLP & 12,86 & 14,13 & 13,63 & 9,91 \\
+KB1 & SVR & 7,97 & 9,47 & 9,70 & 11,20 \\
+KB2 & GPR & 59,35 & 128,46 & 344,84 & 81,62 \\
+KB2 & MLP & 83,04 & 74,05 & 78,92 & 69,15 \\
+KB2 & SVR & 80,16 & 68,70 & 60,29 & 63,93 \\
+\bottomrule
+\end{tabular}
+\par\smallskip{\footnotesize MAPE Csp (\%), trung bình qua hạt giống; B, C, D ×100, σ = 3\%. A chỉ dùng số đo thật. Đường khớp dạng hàm (mốc của D) đạt 9,33\% (KB1) và 112,54\% (KB2).}
+\endgroup

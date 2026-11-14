@@ -1,0 +1,4 @@
+﻿ratio,dong_mA,J,logCsp_sd,khoi_luong_g,ly_do,ghi_chu
+0.025,190.0,73.07692307692307,0.17444464291974862,0.0026000000000000003,Mức chưa đo có σ_logCsp lớn nhất.,"khớp lại để sử dụng, không phải kết quả kiểm tra; mô hình gpr, cách A (chỉ số đo thật)"
+0.1,190.0,172.72727272727272,0.19457277260486897,0.0011,Mức chưa đo có σ_logCsp lớn nhất.,"khớp lại để sử dụng, không phải kết quả kiểm tra; mô hình gpr, cách A (chỉ số đo thật)"
+1.75,190.0,63.333333333333336,0.18209263678245333,0.003,Mức chưa đo có σ_logCsp lớn nhất.,"khớp lại để sử dụng, không phải kết quả kiểm tra; mô hình gpr, cách A (chỉ số đo thật)"

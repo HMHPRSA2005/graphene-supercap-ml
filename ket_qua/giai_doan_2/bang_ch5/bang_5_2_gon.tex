@@ -1,0 +1,20 @@
+% Cần \usepackage{array,booktabs}
+\begingroup
+\centering
+\small
+\begin{tabular}{>{\raggedright\arraybackslash}p{\dimexpr0.180\linewidth-2.160\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.164\linewidth-1.968\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.164\linewidth-1.968\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.164\linewidth-1.968\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.164\linewidth-1.968\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.164\linewidth-1.968\tabcolsep\relax}}
+\toprule
+Mô hình & KB1 MAPE $C_{sp}$ (\%) & KB1 MAPE $P_d$ (\%) & KB2 MAPE $C_{sp}$ (\%) & KB2 MAPE $P_d$ (\%) & $R^2$ $C_{sp}$ KB1 \\
+\midrule
+Hàm mũ & 9,60 & 13,13 & 144,42 & 39,48 & 0,80 \\
+Chọn dạng hàm & 9,33 & 13,13 & 112,54 & 39,48 & 0,81 \\
+Ridge & 10,97 $\pm$ 0,05 & 14,94 $\pm$ 0,04 & 50,81 $\pm$ 0,28 & 41,29 $\pm$ 0,32 & 0,74 $\pm$ 0,00 \\
+SVR & 9,70 $\pm$ 0,10 & 11,08 $\pm$ 0,12 & 60,29 $\pm$ 0,57 & 20,42 $\pm$ 0,34 & 0,83 $\pm$ 0,00 \\
+RF & 27,10 $\pm$ 0,28 & 12,55 $\pm$ 0,16 & 154,73 $\pm$ 1,75 & 29,22 $\pm$ 0,60 & -0,37 $\pm$ 0,06 \\
+GB & 18,04 $\pm$ 0,66 & 15,21 $\pm$ 0,26 & 173,21 $\pm$ 7,95 & 20,76 $\pm$ 0,52 & 0,62 $\pm$ 0,02 \\
+MLP & 13,63 $\pm$ 1,17 & 12,58 $\pm$ 0,65 & 78,92 $\pm$ 14,38 & 24,70 $\pm$ 7,20 & 0,61 $\pm$ 0,10 \\
+GPR & 34,40 $\pm$ 9,74 & 15,12 $\pm$ 1,25 & 344,84 $\pm$ 106,53 & 32,39 $\pm$ 1,70 & -1,55 $\pm$ 1,26 \\
+\bottomrule
+\end{tabular}
+\par\smallskip{\footnotesize Cách C ×100, σ = 3\%; trung bình điện cực rồi trung bình $\pm$ SD qua hạt giống.}
+\endgroup

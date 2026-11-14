@@ -126,6 +126,38 @@ Bắt buộc: `ket_qua_kb1_kb4.csv`, `moi_truong.json`, `best/best_{KB1,KB2,chun
 
 Best được chọn theo MAPE(Csp + Pd)/2 trên điểm thật bị giấu, chỉ cấu hình đủ lần chia được xếp hạng, bỏ đối chứng `_bo_0.075` và **gng_r/pgcn_r chỉ thuộc phụ lục**; tham số lấy tổ hợp được chọn phổ biến nhất trong các fold. `best_KB1` cho nội suy, `best_KB2` cho ngoại suy, `best_chung` trung bình KB1/KB2, `best_co_khoang` tốt nhất trong nhóm có sd. Mô hình `.joblib` đã **khớp lại trên toàn bộ 48 số đo để sử dụng, không phải kết quả kiểm tra**; JSON giữ cấu hình/điểm kiểm tra/phiên bản. Không dùng `--cho-phep-thieu` để tạo best cho kết luận chính.
 
+### Phương án thay Colab: chạy Giai đoạn 1 trên máy local
+
+Dùng khi Colab quá chậm (Colab thường chỉ có 2 vCPU; máy local nhiều nhân chạy song song nhiều đơn vị hơn nhờ `--n-jobs`). Vẫn giữ đủ ba phiên, file best sau mỗi phiên và ZIP sản phẩm; chỉ thay Drive bằng thư mục local `ket_qua/giai_doan_1`. Chạy từ `Code/` trong PowerShell, giữ cửa sổ mở và tắt chế độ ngủ của máy. Ngắt bằng Ctrl+C; chạy lại đúng lệnh = tiếp tục. Không chạy song song với Colab: chọn một nơi để mọi kết quả cùng môi trường thư viện. Muốn máy còn dùng được trong lúc chạy, thay `-1` bằng số luồng nhỏ hơn (ví dụ `12`).
+
+```powershell
+$R = "ket_qua/giai_doan_1"
+python -X utf8 -m ml.chay_kb1_kb4 --kiem-tra-ghi --thu-muc $R
+# GCD-Sim
+python -X utf8 -m gcdsim.gcdsim data/so_lieu_GCD.xlsx --out $R/gcdsim/du_lieu_ao_480000.xlsx --seed 42
+python -X utf8 -m gcdsim.ve_hinh data/so_lieu_GCD.xlsx $R/gcdsim/hinh
+python -X utf8 -m gcdsim.do_nhay data/so_lieu_GCD.xlsx $R/gcdsim/do_nhay.csv
+# Phiên 1
+python -X utf8 -m ml.chay_kb1_kb4 --nhom chinh --thu-muc $R --n-jobs -1
+python -X utf8 -m ml.chay_kb1_kb4 --nhom du_lieu_ao --thu-muc $R --n-jobs -1
+python -X utf8 -m ml.luu_best --thu-muc $R
+# Phiên 2
+python -X utf8 -m ml.chay_kb1_kb4 --nhom so_mau --thu-muc $R --n-jobs -1
+python -X utf8 -m ml.chay_kb1_kb4 --nhom sigma --thu-muc $R --n-jobs -1
+python -X utf8 -m ml.luu_best --thu-muc $R
+# Phiên 3
+python -X utf8 -m ml.chay_kb1_kb4 --nhom kb3 --thu-muc $R --n-jobs -1
+python -X utf8 -m ml.chay_kb1_kb4 --nhom kb4 --thu-muc $R --n-jobs -1
+python -X utf8 -m ml.so_sanh --thu-muc $R
+python -X utf8 -m ml.ve_hinh_ch5 --thu-muc $R --ung-dung
+python -X utf8 -m ml.luu_best --thu-muc $R
+python -X utf8 -m ml.dong_goi --thu-muc $R --out ket_qua/san_pham_giai_doan_1.zip
+# Xem tiến độ bất cứ lúc nào (khi không có lệnh nào đang ghi):
+python -X utf8 -m ml.dong_goi --thu-muc $R --chi-tien-do
+```
+
+Sau đó Giai đoạn 2 nhận ZIP vào thư mục **mới** `ket_qua/giai_doan_2` (tránh trùng với `ket_qua/gcdsim` có sẵn): `python -X utf8 -m ml.giai_doan_2 tat_ca ket_qua/san_pham_giai_doan_1.zip --thu-muc ket_qua/giai_doan_2 --bao-cao ../Report/Report`; khi dùng ứng dụng, trỏ `--best ket_qua/giai_doan_2/best/best_chung.joblib`. Thời gian local chưa đo cho toàn bộ; xem dòng `ETA` bộ chạy in ra sau vài phút.
+
 ## Giai đoạn 2 — trên máy local: nhận sản phẩm, ứng dụng, báo cáo
 
 ### 1. Cài môi trường và đặt ZIP
@@ -183,9 +215,27 @@ python -X utf8 -m ml.so_sanh --thu-muc ket_qua/so_sanh_toan_bo --mien toan_bo
 
 Mặc định GPR/chọn dạng hàm/MLP, cách A, 60 điểm J log-đều trong **giao miền đo của 8 điện cực**. `--mien toan_bo` dùng hợp miền, đánh dấu `ngoai_mien_do` theo từng điện cực. Đầu ra `so_sanh/`: `du_doan_luoi.csv`, `xep_hang.csv`, `tom_tat.csv`, các hình Csp–J/Ragone/xác suất tốt nhất dạng PNG/PDF. Hạng Csp và Pd là hai tiêu chí riêng (Ed cùng hạng Csp). Dải qua seed là phân tán qua seed, không phải khoảng dự đoán; Monte Carlo giả định điện cực độc lập, không phải xác suất thực nghiệm đã hiệu chuẩn.
 
+#### Chọn dòng theo vùng ứng dụng (Ragone)
+
+```sh
+# Không có điều kiện: sinh hình Ragone 8 điện cực và bảng khoảng dòng theo vùng
+python -X utf8 -m ml.vung_ung_dung --best ket_qua/giai_doan_2/best/best_chung.joblib --thu-muc ket_qua/giai_doan_2
+# Phanh tái sinh (xả ngắn) / dự phòng (xả dài): khoảng J/I và điểm Ed lớn nhất
+python -X utf8 -m ml.vung_ung_dung --best ket_qua/giai_doan_2/best/best_chung.joblib --thu-muc ket_qua/giai_doan_2 --dt-max 10
+python -X utf8 -m ml.vung_ung_dung --best ket_qua/giai_doan_2/best/best_chung.joblib --thu-muc ket_qua/giai_doan_2 --dt-min 100
+# Chép lại cả hình và bảng mới vào tư liệu báo cáo
+python -X utf8 -m ml.giai_doan_2 bao_cao --thu-muc ket_qua/giai_doan_2 --bao-cao ../Report/Report
+```
+
+Đầu ra: `hinh_ch5/ragone_vung_ung_dung.pdf` (+ PNG), `bang_ch5/vung_ung_dung.csv` (+ TeX gọn 6 cột, Pd đổi sang kW/kg, một chữ số thập phân). Bảng `ragone_cung_pd.csv` (+ `.tex`, cũng in trên terminal) so sánh Ed (Wh/kg) của tám điện cực tại cùng Pd = 5, 10, 20, 40, 80 kW/kg: nội suy tuyến tính log Ed theo log Pd trên đường `best_chung`, trong miền đo riêng từng điện cực; “—” nếu ngoài miền, không nối qua dự đoán lỗi. CSV giữ số đầy đủ, TeX dùng dấu phẩy và hai chữ số thập phân. Mặc định **Δt < 10 s** là vùng công suất, **10 ≤ Δt < 100 s** trung gian, **Δt ≥ 100 s** vùng năng lượng; đổi hai mốc minh họa bằng `--dt-moc 10 100`, **không phải ngưỡng chuẩn ứng dụng**. Hình có các đường đẳng thời gian 1/10/100 s theo `Ed = Pd·Δt/3600`, chú giải `r = 0,025` và tô đậm hai đoạn của r = 0,1: “phanh tái sinh” (Δt < 10 s), “dự phòng” (Δt ≥ 100 s).
+
+Truy vấn cho phép `--dt-min X --dt-max Y` (hai biên đóng, có thể bỏ một biên), **hoặc** `--pd-min P` (W/kg), **hoặc** `--ed-min E` (Wh/kg); lọc điện cực bằng `--ti-le 0.1 0.5`. Chọn điểm **Ed lớn nhất**, riêng lọc theo Ed chọn **Pd lớn nhất**. Khoảng/cực đại là xấp xỉ trên **2001 điểm J log-đều trong miền đo riêng từng điện cực**, không ngoại suy; `I(mA) = 1000·J·m(g)`, khối lượng suy từ mức 10 mA như CLI dự đoán. Dấu `;` tách khoảng rời nhau; dự đoán không hữu hạn/≤0 hoặc bị đánh dấu lỗi được bỏ, rỗng ghi “không có trong miền đo”.
+
+Best được kiểm phiên bản như `ml.du_doan`: **khớp lại để sử dụng, không phải kết quả kiểm tra**. Ed/Pd là của **vật liệu điện cực trong hệ ba điện cực, chuẩn hóa theo khối lượng hoạt chất**, không phải thiết bị đóng gói; chỉ dùng so sánh và định hướng, không bảo đảm đáp ứng phanh/nguồn dự phòng thực tế.
+
 ### 4. Hoàn thiện báo cáo — cần thao tác nội dung, không chỉ chép tệp
 
-Đọc `ket_qua/manifest.json` để chắc sản phẩm đầy đủ; đối chiếu CSV/best JSON trước khi diễn giải. Đọc `../Report/Report/ket_qua_ch5/README.txt` để biết tệp nào thực sự đã chép. Trong LaTeX dùng `\input{ket_qua_ch5/bang_5_2.tex}` (cần `booktabs,longtable`), `\includegraphics{ket_qua_ch5/hinh_5_4.pdf}`. Viết nhận xét từ kết quả chạy thật, nêu giới hạn 48 điểm, sai số giả định và độ bất định; đối chiếu ratio 0,1 ở cùng J. Sau cùng tự biên dịch/kiểm bố cục báo cáo. **CLI chỉ chép tư liệu, không tự viết kết luận, không thay nội dung chương và không biên dịch LaTeX.**
+Đọc `ket_qua/manifest.json` để chắc sản phẩm đầy đủ; đối chiếu CSV/best JSON trước khi diễn giải. Đọc `../Report/Report/ket_qua_ch5/README.txt` để biết tệp nào thực sự đã chép. Trong thân chương dùng `\bangketqua{bang_5_2_gon}{<caption>}` (macro đặt caption rồi input) với bảng `tabular` gọn, cần `array,booktabs`: `bang_5_2_gon` có 8 hàng mô hình, ghép KB1/KB2 ở cách C ×100, σ 3%; `bang_5_3_gon` có 6 hàng KB × GPR/MLP/SVR, cột A/B/C/D là MAPE Csp trung bình (B/C/D ×100, σ 3%); `bang_5_6_gon` ghép biên/trong ở KB4 cách C ×100, σ 3%, gồm cả hai đối chứng trung bình. Các ô phần trăm có hai chữ số thập phân; mô hình tất định không kèm SD bằng 0. `vung_ung_dung` và `ragone_cung_pd` cũng dùng `tabular`; ghi chú sau bảng, không chứa caption. Không còn sinh `do_phu_gon`, `kb3_k_dat_nguong_gon`, `ung_dung_de_xuat_gon`; bảng đầy đủ và CSV không hậu tố vẫn giữ để tra cứu (TeX đầy đủ cần `longtable`). Hình: `\includegraphics{ket_qua_ch5/hinh_5_4.pdf}`. Viết nhận xét từ kết quả chạy thật, nêu giới hạn 48 điểm, sai số giả định và độ bất định; đối chiếu r = 0,1 ở cùng J hoặc cùng Pd (không trộn hai cách so sánh). Sau cùng tự biên dịch/kiểm bố cục báo cáo. **CLI chỉ chép tư liệu, không tự viết kết luận, không thay nội dung chương và không biên dịch LaTeX.**
 
 Nếu sinh lại `ml.ve_hinh_ch5 --thu-muc ket_qua --ung-dung` hoặc `ml.so_sanh`, chạy lại `ml.giai_doan_2 bao_cao ...` để cập nhật bản chép. Hình 5.9–5.10 từ `ve_hinh_ch5` mặc định GPR cách A, không tự nhận là hình từ best; dự đoán best ở `ung_dung/`.
 

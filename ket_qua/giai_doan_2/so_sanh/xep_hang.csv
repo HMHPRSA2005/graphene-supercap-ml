@@ -1,0 +1,1441 @@
+﻿mo_hinh,J,ratio,hang_Csp,hang_Pd,xac_suat_tot_nhat_Csp,nguon_xac_suat
+chon_dang_ham,9.09090909090909,0.025,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.09090909090909,0.05,2.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.09090909090909,0.075,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.09090909090909,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.09090909090909,0.25,8.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.09090909090909,0.5,3.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.09090909090909,1.0,6.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.09090909090909,1.75,4.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.34967886495194,0.025,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.34967886495194,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.34967886495194,0.075,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.34967886495194,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.34967886495194,0.25,8.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.34967886495194,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.34967886495194,1.0,6.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.34967886495194,1.75,4.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.615814436550195,0.025,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.615814436550195,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.615814436550195,0.075,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.615814436550195,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.615814436550195,0.25,8.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.615814436550195,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.615814436550195,1.0,6.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.615814436550195,1.75,4.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.889525470738446,0.025,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.889525470738446,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.889525470738446,0.075,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.889525470738446,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.889525470738446,0.25,8.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.889525470738446,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.889525470738446,1.0,6.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,9.889525470738446,1.75,4.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,10.17102760059839,0.025,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,10.17102760059839,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,10.17102760059839,0.075,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,10.17102760059839,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,10.17102760059839,0.25,8.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,10.17102760059839,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,10.17102760059839,1.0,6.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,10.17102760059839,1.75,4.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,10.460542597137337,0.025,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,10.460542597137337,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,10.460542597137337,0.075,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,10.460542597137337,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,10.460542597137337,0.25,8.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,10.460542597137337,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,10.460542597137337,1.0,6.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,10.460542597137337,1.75,4.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,10.758298544002296,0.025,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,10.758298544002296,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,10.758298544002296,0.075,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,10.758298544002296,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,10.758298544002296,0.25,8.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,10.758298544002296,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,10.758298544002296,1.0,6.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,10.758298544002296,1.75,4.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,11.06453001716717,0.025,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,11.06453001716717,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,11.06453001716717,0.075,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,11.06453001716717,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,11.06453001716717,0.25,8.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,11.06453001716717,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,11.06453001716717,1.0,6.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,11.06453001716717,1.75,4.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,11.379478269734763,0.025,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,11.379478269734763,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,11.379478269734763,0.075,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,11.379478269734763,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,11.379478269734763,0.25,8.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,11.379478269734763,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,11.379478269734763,1.0,6.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,11.379478269734763,1.75,4.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,11.703391421999095,0.025,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,11.703391421999095,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,11.703391421999095,0.075,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,11.703391421999095,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,11.703391421999095,0.25,8.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,11.703391421999095,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,11.703391421999095,1.0,6.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,11.703391421999095,1.75,4.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,12.036524656917733,0.025,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,12.036524656917733,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,12.036524656917733,0.075,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,12.036524656917733,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,12.036524656917733,0.25,8.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,12.036524656917733,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,12.036524656917733,1.0,6.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,12.036524656917733,1.75,4.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,12.379140421148229,0.025,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,12.379140421148229,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,12.379140421148229,0.075,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,12.379140421148229,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,12.379140421148229,0.25,8.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,12.379140421148229,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,12.379140421148229,1.0,6.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,12.379140421148229,1.75,4.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,12.731508631807012,0.025,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,12.731508631807012,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,12.731508631807012,0.075,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,12.731508631807012,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,12.731508631807012,0.25,8.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,12.731508631807012,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,12.731508631807012,1.0,6.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,12.731508631807012,1.75,4.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,13.09390688911352,0.025,7.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,13.09390688911352,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,13.09390688911352,0.075,5.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,13.09390688911352,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,13.09390688911352,0.25,8.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,13.09390688911352,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,13.09390688911352,1.0,6.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,13.09390688911352,1.75,4.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,13.466620695087261,0.025,7.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,13.466620695087261,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,13.466620695087261,0.075,5.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,13.466620695087261,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,13.466620695087261,0.25,8.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,13.466620695087261,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,13.466620695087261,1.0,6.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,13.466620695087261,1.75,4.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,13.849943678470003,0.025,7.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,13.849943678470003,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,13.849943678470003,0.075,5.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,13.849943678470003,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,13.849943678470003,0.25,8.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,13.849943678470003,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,13.849943678470003,1.0,6.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,13.849943678470003,1.75,4.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,14.244177826050237,0.025,7.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,14.244177826050237,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,14.244177826050237,0.075,5.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,14.244177826050237,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,14.244177826050237,0.25,8.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,14.244177826050237,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,14.244177826050237,1.0,6.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,14.244177826050237,1.75,4.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,14.649633720572288,0.025,7.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,14.649633720572288,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,14.649633720572288,0.075,5.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,14.649633720572288,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,14.649633720572288,0.25,8.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,14.649633720572288,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,14.649633720572288,1.0,6.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,14.649633720572288,1.75,4.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,15.066630785417425,0.025,6.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,15.066630785417425,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,15.066630785417425,0.075,5.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,15.066630785417425,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,15.066630785417425,0.25,8.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,15.066630785417425,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,15.066630785417425,1.0,7.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,15.066630785417425,1.75,4.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,15.49549753624968,0.025,6.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,15.49549753624968,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,15.49549753624968,0.075,5.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,15.49549753624968,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,15.49549753624968,0.25,8.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,15.49549753624968,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,15.49549753624968,1.0,7.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,15.49549753624968,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,15.936571839824735,0.025,6.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,15.936571839824735,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,15.936571839824735,0.075,5.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,15.936571839824735,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,15.936571839824735,0.25,8.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,15.936571839824735,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,15.936571839824735,1.0,7.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,15.936571839824735,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,16.390201180165743,0.025,6.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,16.390201180165743,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,16.390201180165743,0.075,5.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,16.390201180165743,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,16.390201180165743,0.25,8.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,16.390201180165743,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,16.390201180165743,1.0,7.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,16.390201180165743,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,16.85674293231567,0.025,6.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,16.85674293231567,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,16.85674293231567,0.075,5.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,16.85674293231567,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,16.85674293231567,0.25,7.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,16.85674293231567,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,16.85674293231567,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,16.85674293231567,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,17.336564643881978,0.025,6.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,17.336564643881978,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,17.336564643881978,0.075,5.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,17.336564643881978,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,17.336564643881978,0.25,7.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,17.336564643881978,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,17.336564643881978,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,17.336564643881978,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,17.830044324595413,0.025,6.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,17.830044324595413,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,17.830044324595413,0.075,5.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,17.830044324595413,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,17.830044324595413,0.25,7.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,17.830044324595413,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,17.830044324595413,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,17.830044324595413,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,18.337570744110863,0.025,6.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,18.337570744110863,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,18.337570744110863,0.075,5.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,18.337570744110863,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,18.337570744110863,0.25,7.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,18.337570744110863,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,18.337570744110863,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,18.337570744110863,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,18.85954373828519,0.025,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,18.85954373828519,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,18.85954373828519,0.075,6.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,18.85954373828519,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,18.85954373828519,0.25,7.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,18.85954373828519,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,18.85954373828519,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,18.85954373828519,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,19.396374524173,0.025,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,19.396374524173,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,19.396374524173,0.075,6.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,19.396374524173,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,19.396374524173,0.25,7.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,19.396374524173,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,19.396374524173,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,19.396374524173,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,19.948486023988792,0.025,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,19.948486023988792,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,19.948486023988792,0.075,6.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,19.948486023988792,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,19.948486023988792,0.25,7.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,19.948486023988792,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,19.948486023988792,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,19.948486023988792,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,20.51631319829049,0.025,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,20.51631319829049,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,20.51631319829049,0.075,6.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,20.51631319829049,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,20.51631319829049,0.25,7.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,20.51631319829049,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,20.51631319829049,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,20.51631319829049,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,21.10030338864704,0.025,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,21.10030338864704,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,21.10030338864704,0.075,6.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,21.10030338864704,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,21.10030338864704,0.25,7.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,21.10030338864704,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,21.10030338864704,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,21.10030338864704,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,21.700916670059772,0.025,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,21.700916670059772,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,21.700916670059772,0.075,6.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,21.700916670059772,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,21.700916670059772,0.25,7.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,21.700916670059772,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,21.700916670059772,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,21.700916670059772,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,22.31862621341553,0.025,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,22.31862621341553,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,22.31862621341553,0.075,6.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,22.31862621341553,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,22.31862621341553,0.25,7.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,22.31862621341553,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,22.31862621341553,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,22.31862621341553,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,22.953918658256704,0.025,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,22.953918658256704,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,22.953918658256704,0.075,6.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,22.953918658256704,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,22.953918658256704,0.25,7.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,22.953918658256704,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,22.953918658256704,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,22.953918658256704,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,23.60729449616217,0.025,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,23.60729449616217,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,23.60729449616217,0.075,6.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,23.60729449616217,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,23.60729449616217,0.25,7.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,23.60729449616217,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,23.60729449616217,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,23.60729449616217,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,24.279268465041007,0.025,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,24.279268465041007,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,24.279268465041007,0.075,6.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,24.279268465041007,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,24.279268465041007,0.25,7.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,24.279268465041007,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,24.279268465041007,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,24.279268465041007,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,24.970369954649698,0.025,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,24.970369954649698,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,24.970369954649698,0.075,6.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,24.970369954649698,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,24.970369954649698,0.25,7.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,24.970369954649698,0.5,3.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,24.970369954649698,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,24.970369954649698,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,25.681143423652113,0.025,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,25.681143423652113,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,25.681143423652113,0.075,6.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,25.681143423652113,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,25.681143423652113,0.25,7.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,25.681143423652113,0.5,3.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,25.681143423652113,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,25.681143423652113,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,26.412148828551178,0.025,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,26.412148828551178,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,26.412148828551178,0.075,6.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,26.412148828551178,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,26.412148828551178,0.25,7.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,26.412148828551178,0.5,3.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,26.412148828551178,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,26.412148828551178,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,27.163962064829725,0.025,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,27.163962064829725,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,27.163962064829725,0.075,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,27.163962064829725,0.1,1.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,27.163962064829725,0.25,6.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,27.163962064829725,0.5,3.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,27.163962064829725,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,27.163962064829725,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,27.93717542064844,0.025,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,27.93717542064844,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,27.93717542064844,0.075,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,27.93717542064844,0.1,1.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,27.93717542064844,0.25,6.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,27.93717542064844,0.5,3.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,27.93717542064844,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,27.93717542064844,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,28.73239804345807,0.025,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,28.73239804345807,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,28.73239804345807,0.075,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,28.73239804345807,0.1,1.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,28.73239804345807,0.25,6.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,28.73239804345807,0.5,3.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,28.73239804345807,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,28.73239804345807,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,29.55025641989372,0.025,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,29.55025641989372,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,29.55025641989372,0.075,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,29.55025641989372,0.1,1.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,29.55025641989372,0.25,6.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,29.55025641989372,0.5,3.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,29.55025641989372,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,29.55025641989372,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,30.391394869328977,0.025,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,30.391394869328977,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,30.391394869328977,0.075,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,30.391394869328977,0.1,1.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,30.391394869328977,0.25,6.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,30.391394869328977,0.5,3.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,30.391394869328977,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,30.391394869328977,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,31.256476051479154,0.025,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,31.256476051479154,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,31.256476051479154,0.075,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,31.256476051479154,0.1,1.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,31.256476051479154,0.25,6.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,31.256476051479154,0.5,3.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,31.256476051479154,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,31.256476051479154,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,32.14618148845304,0.025,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,32.14618148845304,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,32.14618148845304,0.075,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,32.14618148845304,0.1,1.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,32.14618148845304,0.25,6.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,32.14618148845304,0.5,3.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,32.14618148845304,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,32.14618148845304,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,33.06121210166488,0.025,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,33.06121210166488,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,33.06121210166488,0.075,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,33.06121210166488,0.1,1.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,33.06121210166488,0.25,6.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,33.06121210166488,0.5,3.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,33.06121210166488,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,33.06121210166488,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,34.00228876402924,0.025,5.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,34.00228876402924,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,34.00228876402924,0.075,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,34.00228876402924,0.1,1.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,34.00228876402924,0.25,6.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,34.00228876402924,0.5,3.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,34.00228876402924,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,34.00228876402924,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,34.970152867874084,0.025,5.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,34.970152867874084,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,34.970152867874084,0.075,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,34.970152867874084,0.1,1.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,34.970152867874084,0.25,6.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,34.970152867874084,0.5,3.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,34.970152867874084,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,34.970152867874084,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,35.96556690901909,0.025,5.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,35.96556690901909,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,35.96556690901909,0.075,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,35.96556690901909,0.1,1.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,35.96556690901909,0.25,6.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,35.96556690901909,0.5,3.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,35.96556690901909,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,35.96556690901909,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,36.989315087479795,0.025,5.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,36.989315087479795,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,36.989315087479795,0.075,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,36.989315087479795,0.1,1.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,36.989315087479795,0.25,6.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,36.989315087479795,0.5,3.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,36.989315087479795,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,36.989315087479795,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,38.04220392527038,0.025,5.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,38.04220392527038,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,38.04220392527038,0.075,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,38.04220392527038,0.1,1.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,38.04220392527038,0.25,6.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,38.04220392527038,0.5,3.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,38.04220392527038,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,38.04220392527038,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,39.12506290179216,0.025,5.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,39.12506290179216,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,39.12506290179216,0.075,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,39.12506290179216,0.1,1.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,39.12506290179216,0.25,6.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,39.12506290179216,0.5,3.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,39.12506290179216,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,39.12506290179216,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,40.238745107308155,0.025,5.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,40.238745107308155,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,40.238745107308155,0.075,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,40.238745107308155,0.1,1.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,40.238745107308155,0.25,6.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,40.238745107308155,0.5,3.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,40.238745107308155,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,40.238745107308155,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,41.38412791501863,0.025,5.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,41.38412791501863,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,41.38412791501863,0.075,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,41.38412791501863,0.1,1.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,41.38412791501863,0.25,6.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,41.38412791501863,0.5,3.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,41.38412791501863,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,41.38412791501863,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,42.562113672266904,0.025,5.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,42.562113672266904,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,42.562113672266904,0.075,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,42.562113672266904,0.1,1.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,42.562113672266904,0.25,6.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,42.562113672266904,0.5,3.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,42.562113672266904,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,42.562113672266904,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,43.77363041142037,0.025,5.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,43.77363041142037,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,43.77363041142037,0.075,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,43.77363041142037,0.1,1.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,43.77363041142037,0.25,6.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,43.77363041142037,0.5,3.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,43.77363041142037,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,43.77363041142037,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,45.019632580986226,0.025,5.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,45.019632580986226,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,45.019632580986226,0.075,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,45.019632580986226,0.1,1.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,45.019632580986226,0.25,6.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,45.019632580986226,0.5,3.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,45.019632580986226,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,45.019632580986226,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,46.30110179753838,0.025,5.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,46.30110179753838,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,46.30110179753838,0.075,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,46.30110179753838,0.1,1.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,46.30110179753838,0.25,6.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,46.30110179753838,0.5,3.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,46.30110179753838,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,46.30110179753838,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,47.61904761904762,0.025,5.0,4.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,47.61904761904762,0.05,2.0,1.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,47.61904761904762,0.075,7.0,6.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,47.61904761904762,0.1,1.0,3.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,47.61904761904762,0.25,6.0,2.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,47.61904761904762,0.5,3.0,5.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,47.61904761904762,1.0,8.0,8.0,,Không có xác suất; chỉ thứ hạng
+chon_dang_ham,47.61904761904762,1.75,4.0,7.0,,Không có xác suất; chỉ thứ hạng
+gpr,9.09090909090909,0.025,7.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.09090909090909,0.05,2.0,2.0,0.09875,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.09090909090909,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.09090909090909,0.1,1.0,3.0,0.896,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.09090909090909,0.25,8.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.09090909090909,0.5,3.0,1.0,0.00525,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.09090909090909,1.0,6.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.09090909090909,1.75,4.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.34967886495194,0.025,7.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.34967886495194,0.05,2.0,2.0,0.09625,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.34967886495194,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.34967886495194,0.1,1.0,3.0,0.89775,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.34967886495194,0.25,8.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.34967886495194,0.5,3.0,1.0,0.006,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.34967886495194,1.0,6.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.34967886495194,1.75,4.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.615814436550195,0.025,7.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.615814436550195,0.05,2.0,1.0,0.08175,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.615814436550195,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.615814436550195,0.1,1.0,3.0,0.916,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.615814436550195,0.25,8.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.615814436550195,0.5,3.0,2.0,0.00225,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.615814436550195,1.0,6.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.615814436550195,1.75,4.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.889525470738446,0.025,7.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.889525470738446,0.05,2.0,1.0,0.077,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.889525470738446,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.889525470738446,0.1,1.0,3.0,0.92025,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.889525470738446,0.25,8.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.889525470738446,0.5,3.0,2.0,0.00275,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.889525470738446,1.0,6.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,9.889525470738446,1.75,4.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,10.17102760059839,0.025,7.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,10.17102760059839,0.05,2.0,1.0,0.07625,Monte Carlo log-normal; các điện cực độc lập
+gpr,10.17102760059839,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,10.17102760059839,0.1,1.0,3.0,0.9225,Monte Carlo log-normal; các điện cực độc lập
+gpr,10.17102760059839,0.25,8.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,10.17102760059839,0.5,3.0,2.0,0.00125,Monte Carlo log-normal; các điện cực độc lập
+gpr,10.17102760059839,1.0,6.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,10.17102760059839,1.75,4.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,10.460542597137337,0.025,7.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,10.460542597137337,0.05,2.0,1.0,0.07125,Monte Carlo log-normal; các điện cực độc lập
+gpr,10.460542597137337,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,10.460542597137337,0.1,1.0,3.0,0.927,Monte Carlo log-normal; các điện cực độc lập
+gpr,10.460542597137337,0.25,8.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,10.460542597137337,0.5,3.0,2.0,0.00175,Monte Carlo log-normal; các điện cực độc lập
+gpr,10.460542597137337,1.0,6.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,10.460542597137337,1.75,4.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,10.758298544002296,0.025,7.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,10.758298544002296,0.05,2.0,1.0,0.06825,Monte Carlo log-normal; các điện cực độc lập
+gpr,10.758298544002296,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,10.758298544002296,0.1,1.0,4.0,0.93125,Monte Carlo log-normal; các điện cực độc lập
+gpr,10.758298544002296,0.25,8.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,10.758298544002296,0.5,3.0,2.0,0.0005,Monte Carlo log-normal; các điện cực độc lập
+gpr,10.758298544002296,1.0,6.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,10.758298544002296,1.75,4.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,11.06453001716717,0.025,7.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,11.06453001716717,0.05,2.0,1.0,0.0685,Monte Carlo log-normal; các điện cực độc lập
+gpr,11.06453001716717,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,11.06453001716717,0.1,1.0,5.0,0.93075,Monte Carlo log-normal; các điện cực độc lập
+gpr,11.06453001716717,0.25,8.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,11.06453001716717,0.5,3.0,2.0,0.00075,Monte Carlo log-normal; các điện cực độc lập
+gpr,11.06453001716717,1.0,6.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,11.06453001716717,1.75,4.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,11.379478269734763,0.025,6.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,11.379478269734763,0.05,2.0,1.0,0.06475,Monte Carlo log-normal; các điện cực độc lập
+gpr,11.379478269734763,0.075,5.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,11.379478269734763,0.1,1.0,6.0,0.93375,Monte Carlo log-normal; các điện cực độc lập
+gpr,11.379478269734763,0.25,8.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,11.379478269734763,0.5,3.0,2.0,0.0015,Monte Carlo log-normal; các điện cực độc lập
+gpr,11.379478269734763,1.0,7.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,11.379478269734763,1.75,4.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,11.703391421999095,0.025,6.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,11.703391421999095,0.05,2.0,1.0,0.06025,Monte Carlo log-normal; các điện cực độc lập
+gpr,11.703391421999095,0.075,5.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,11.703391421999095,0.1,1.0,6.0,0.93925,Monte Carlo log-normal; các điện cực độc lập
+gpr,11.703391421999095,0.25,8.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,11.703391421999095,0.5,3.0,2.0,0.0005,Monte Carlo log-normal; các điện cực độc lập
+gpr,11.703391421999095,1.0,7.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,11.703391421999095,1.75,4.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,12.036524656917733,0.025,6.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,12.036524656917733,0.05,2.0,1.0,0.0565,Monte Carlo log-normal; các điện cực độc lập
+gpr,12.036524656917733,0.075,5.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,12.036524656917733,0.1,1.0,6.0,0.94275,Monte Carlo log-normal; các điện cực độc lập
+gpr,12.036524656917733,0.25,8.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,12.036524656917733,0.5,3.0,2.0,0.00075,Monte Carlo log-normal; các điện cực độc lập
+gpr,12.036524656917733,1.0,7.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,12.036524656917733,1.75,4.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,12.379140421148229,0.025,6.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,12.379140421148229,0.05,2.0,1.0,0.04575,Monte Carlo log-normal; các điện cực độc lập
+gpr,12.379140421148229,0.075,5.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,12.379140421148229,0.1,1.0,7.0,0.954,Monte Carlo log-normal; các điện cực độc lập
+gpr,12.379140421148229,0.25,8.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,12.379140421148229,0.5,3.0,2.0,0.00025,Monte Carlo log-normal; các điện cực độc lập
+gpr,12.379140421148229,1.0,7.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,12.379140421148229,1.75,4.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,12.731508631807012,0.025,6.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,12.731508631807012,0.05,2.0,1.0,0.05025,Monte Carlo log-normal; các điện cực độc lập
+gpr,12.731508631807012,0.075,5.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,12.731508631807012,0.1,1.0,8.0,0.94975,Monte Carlo log-normal; các điện cực độc lập
+gpr,12.731508631807012,0.25,7.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,12.731508631807012,0.5,3.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,12.731508631807012,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,12.731508631807012,1.75,4.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,13.09390688911352,0.025,6.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,13.09390688911352,0.05,2.0,1.0,0.04925,Monte Carlo log-normal; các điện cực độc lập
+gpr,13.09390688911352,0.075,5.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,13.09390688911352,0.1,1.0,8.0,0.9505,Monte Carlo log-normal; các điện cực độc lập
+gpr,13.09390688911352,0.25,7.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,13.09390688911352,0.5,3.0,2.0,0.00025,Monte Carlo log-normal; các điện cực độc lập
+gpr,13.09390688911352,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,13.09390688911352,1.75,4.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,13.466620695087261,0.025,6.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,13.466620695087261,0.05,2.0,1.0,0.0465,Monte Carlo log-normal; các điện cực độc lập
+gpr,13.466620695087261,0.075,5.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,13.466620695087261,0.1,1.0,8.0,0.9525,Monte Carlo log-normal; các điện cực độc lập
+gpr,13.466620695087261,0.25,7.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,13.466620695087261,0.5,3.0,2.0,0.001,Monte Carlo log-normal; các điện cực độc lập
+gpr,13.466620695087261,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,13.466620695087261,1.75,4.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,13.849943678470003,0.025,6.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,13.849943678470003,0.05,2.0,1.0,0.04,Monte Carlo log-normal; các điện cực độc lập
+gpr,13.849943678470003,0.075,5.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,13.849943678470003,0.1,1.0,8.0,0.96,Monte Carlo log-normal; các điện cực độc lập
+gpr,13.849943678470003,0.25,7.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,13.849943678470003,0.5,3.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,13.849943678470003,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,13.849943678470003,1.75,4.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,14.244177826050237,0.025,6.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,14.244177826050237,0.05,2.0,1.0,0.0425,Monte Carlo log-normal; các điện cực độc lập
+gpr,14.244177826050237,0.075,5.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,14.244177826050237,0.1,1.0,8.0,0.95725,Monte Carlo log-normal; các điện cực độc lập
+gpr,14.244177826050237,0.25,7.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,14.244177826050237,0.5,3.0,2.0,0.00025,Monte Carlo log-normal; các điện cực độc lập
+gpr,14.244177826050237,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,14.244177826050237,1.75,4.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,14.649633720572288,0.025,6.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,14.649633720572288,0.05,2.0,1.0,0.035,Monte Carlo log-normal; các điện cực độc lập
+gpr,14.649633720572288,0.075,5.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,14.649633720572288,0.1,1.0,8.0,0.965,Monte Carlo log-normal; các điện cực độc lập
+gpr,14.649633720572288,0.25,7.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,14.649633720572288,0.5,3.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,14.649633720572288,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,14.649633720572288,1.75,4.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,15.066630785417425,0.025,6.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,15.066630785417425,0.05,2.0,1.0,0.0365,Monte Carlo log-normal; các điện cực độc lập
+gpr,15.066630785417425,0.075,5.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,15.066630785417425,0.1,1.0,8.0,0.9635,Monte Carlo log-normal; các điện cực độc lập
+gpr,15.066630785417425,0.25,7.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,15.066630785417425,0.5,3.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,15.066630785417425,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,15.066630785417425,1.75,4.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,15.49549753624968,0.025,6.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,15.49549753624968,0.05,2.0,1.0,0.033,Monte Carlo log-normal; các điện cực độc lập
+gpr,15.49549753624968,0.075,5.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,15.49549753624968,0.1,1.0,8.0,0.967,Monte Carlo log-normal; các điện cực độc lập
+gpr,15.49549753624968,0.25,7.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,15.49549753624968,0.5,3.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,15.49549753624968,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,15.49549753624968,1.75,4.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,15.936571839824735,0.025,6.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,15.936571839824735,0.05,2.0,1.0,0.03,Monte Carlo log-normal; các điện cực độc lập
+gpr,15.936571839824735,0.075,5.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,15.936571839824735,0.1,1.0,8.0,0.97,Monte Carlo log-normal; các điện cực độc lập
+gpr,15.936571839824735,0.25,7.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,15.936571839824735,0.5,3.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,15.936571839824735,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,15.936571839824735,1.75,4.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,16.390201180165743,0.025,6.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,16.390201180165743,0.05,2.0,1.0,0.03025,Monte Carlo log-normal; các điện cực độc lập
+gpr,16.390201180165743,0.075,5.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,16.390201180165743,0.1,1.0,8.0,0.96975,Monte Carlo log-normal; các điện cực độc lập
+gpr,16.390201180165743,0.25,7.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,16.390201180165743,0.5,3.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,16.390201180165743,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,16.390201180165743,1.75,4.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,16.85674293231567,0.025,6.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,16.85674293231567,0.05,2.0,1.0,0.02825,Monte Carlo log-normal; các điện cực độc lập
+gpr,16.85674293231567,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,16.85674293231567,0.1,1.0,8.0,0.97175,Monte Carlo log-normal; các điện cực độc lập
+gpr,16.85674293231567,0.25,7.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,16.85674293231567,0.5,3.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,16.85674293231567,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,16.85674293231567,1.75,4.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,17.336564643881978,0.025,6.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,17.336564643881978,0.05,2.0,1.0,0.02625,Monte Carlo log-normal; các điện cực độc lập
+gpr,17.336564643881978,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,17.336564643881978,0.1,1.0,8.0,0.97375,Monte Carlo log-normal; các điện cực độc lập
+gpr,17.336564643881978,0.25,7.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,17.336564643881978,0.5,3.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,17.336564643881978,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,17.336564643881978,1.75,4.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,17.830044324595413,0.025,6.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,17.830044324595413,0.05,2.0,1.0,0.02525,Monte Carlo log-normal; các điện cực độc lập
+gpr,17.830044324595413,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,17.830044324595413,0.1,1.0,8.0,0.97475,Monte Carlo log-normal; các điện cực độc lập
+gpr,17.830044324595413,0.25,7.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,17.830044324595413,0.5,3.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,17.830044324595413,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,17.830044324595413,1.75,4.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,18.337570744110863,0.025,6.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,18.337570744110863,0.05,2.0,1.0,0.024,Monte Carlo log-normal; các điện cực độc lập
+gpr,18.337570744110863,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,18.337570744110863,0.1,1.0,8.0,0.976,Monte Carlo log-normal; các điện cực độc lập
+gpr,18.337570744110863,0.25,7.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,18.337570744110863,0.5,3.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,18.337570744110863,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,18.337570744110863,1.75,4.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,18.85954373828519,0.025,6.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,18.85954373828519,0.05,2.0,1.0,0.02075,Monte Carlo log-normal; các điện cực độc lập
+gpr,18.85954373828519,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,18.85954373828519,0.1,1.0,8.0,0.97925,Monte Carlo log-normal; các điện cực độc lập
+gpr,18.85954373828519,0.25,7.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,18.85954373828519,0.5,3.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,18.85954373828519,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,18.85954373828519,1.75,4.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,19.396374524173,0.025,6.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,19.396374524173,0.05,2.0,1.0,0.02225,Monte Carlo log-normal; các điện cực độc lập
+gpr,19.396374524173,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,19.396374524173,0.1,1.0,8.0,0.97775,Monte Carlo log-normal; các điện cực độc lập
+gpr,19.396374524173,0.25,7.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,19.396374524173,0.5,3.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,19.396374524173,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,19.396374524173,1.75,4.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,19.948486023988792,0.025,6.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,19.948486023988792,0.05,2.0,1.0,0.02,Monte Carlo log-normal; các điện cực độc lập
+gpr,19.948486023988792,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,19.948486023988792,0.1,1.0,8.0,0.98,Monte Carlo log-normal; các điện cực độc lập
+gpr,19.948486023988792,0.25,7.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,19.948486023988792,0.5,3.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,19.948486023988792,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,19.948486023988792,1.75,4.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,20.51631319829049,0.025,6.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,20.51631319829049,0.05,2.0,1.0,0.02325,Monte Carlo log-normal; các điện cực độc lập
+gpr,20.51631319829049,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,20.51631319829049,0.1,1.0,8.0,0.97675,Monte Carlo log-normal; các điện cực độc lập
+gpr,20.51631319829049,0.25,7.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,20.51631319829049,0.5,3.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,20.51631319829049,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,20.51631319829049,1.75,4.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,21.10030338864704,0.025,6.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,21.10030338864704,0.05,2.0,1.0,0.023,Monte Carlo log-normal; các điện cực độc lập
+gpr,21.10030338864704,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,21.10030338864704,0.1,1.0,8.0,0.977,Monte Carlo log-normal; các điện cực độc lập
+gpr,21.10030338864704,0.25,7.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,21.10030338864704,0.5,3.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,21.10030338864704,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,21.10030338864704,1.75,4.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,21.700916670059772,0.025,6.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,21.700916670059772,0.05,2.0,1.0,0.0195,Monte Carlo log-normal; các điện cực độc lập
+gpr,21.700916670059772,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,21.700916670059772,0.1,1.0,8.0,0.9805,Monte Carlo log-normal; các điện cực độc lập
+gpr,21.700916670059772,0.25,7.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,21.700916670059772,0.5,3.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,21.700916670059772,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,21.700916670059772,1.75,4.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,22.31862621341553,0.025,6.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,22.31862621341553,0.05,2.0,1.0,0.01875,Monte Carlo log-normal; các điện cực độc lập
+gpr,22.31862621341553,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,22.31862621341553,0.1,1.0,8.0,0.98125,Monte Carlo log-normal; các điện cực độc lập
+gpr,22.31862621341553,0.25,7.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,22.31862621341553,0.5,3.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,22.31862621341553,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,22.31862621341553,1.75,4.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,22.953918658256704,0.025,6.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,22.953918658256704,0.05,2.0,2.0,0.018,Monte Carlo log-normal; các điện cực độc lập
+gpr,22.953918658256704,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,22.953918658256704,0.1,1.0,8.0,0.982,Monte Carlo log-normal; các điện cực độc lập
+gpr,22.953918658256704,0.25,7.0,1.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,22.953918658256704,0.5,3.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,22.953918658256704,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,22.953918658256704,1.75,4.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,23.60729449616217,0.025,6.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,23.60729449616217,0.05,2.0,2.0,0.0145,Monte Carlo log-normal; các điện cực độc lập
+gpr,23.60729449616217,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,23.60729449616217,0.1,1.0,8.0,0.9855,Monte Carlo log-normal; các điện cực độc lập
+gpr,23.60729449616217,0.25,7.0,1.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,23.60729449616217,0.5,3.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,23.60729449616217,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,23.60729449616217,1.75,4.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,24.279268465041007,0.025,6.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,24.279268465041007,0.05,2.0,2.0,0.01875,Monte Carlo log-normal; các điện cực độc lập
+gpr,24.279268465041007,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,24.279268465041007,0.1,1.0,8.0,0.98125,Monte Carlo log-normal; các điện cực độc lập
+gpr,24.279268465041007,0.25,7.0,1.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,24.279268465041007,0.5,3.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,24.279268465041007,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,24.279268465041007,1.75,4.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,24.970369954649698,0.025,6.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,24.970369954649698,0.05,2.0,3.0,0.01625,Monte Carlo log-normal; các điện cực độc lập
+gpr,24.970369954649698,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,24.970369954649698,0.1,1.0,8.0,0.98375,Monte Carlo log-normal; các điện cực độc lập
+gpr,24.970369954649698,0.25,7.0,1.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,24.970369954649698,0.5,3.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,24.970369954649698,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,24.970369954649698,1.75,4.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,25.681143423652113,0.025,6.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,25.681143423652113,0.05,2.0,3.0,0.01275,Monte Carlo log-normal; các điện cực độc lập
+gpr,25.681143423652113,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,25.681143423652113,0.1,1.0,8.0,0.98725,Monte Carlo log-normal; các điện cực độc lập
+gpr,25.681143423652113,0.25,7.0,1.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,25.681143423652113,0.5,3.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,25.681143423652113,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,25.681143423652113,1.75,4.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,26.412148828551178,0.025,6.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,26.412148828551178,0.05,2.0,3.0,0.01325,Monte Carlo log-normal; các điện cực độc lập
+gpr,26.412148828551178,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,26.412148828551178,0.1,1.0,7.0,0.98675,Monte Carlo log-normal; các điện cực độc lập
+gpr,26.412148828551178,0.25,7.0,1.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,26.412148828551178,0.5,3.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,26.412148828551178,1.0,8.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,26.412148828551178,1.75,4.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,27.163962064829725,0.025,6.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,27.163962064829725,0.05,2.0,3.0,0.0145,Monte Carlo log-normal; các điện cực độc lập
+gpr,27.163962064829725,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,27.163962064829725,0.1,1.0,7.0,0.9855,Monte Carlo log-normal; các điện cực độc lập
+gpr,27.163962064829725,0.25,7.0,1.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,27.163962064829725,0.5,3.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,27.163962064829725,1.0,8.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,27.163962064829725,1.75,4.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,27.93717542064844,0.025,6.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,27.93717542064844,0.05,2.0,3.0,0.0135,Monte Carlo log-normal; các điện cực độc lập
+gpr,27.93717542064844,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,27.93717542064844,0.1,1.0,7.0,0.9865,Monte Carlo log-normal; các điện cực độc lập
+gpr,27.93717542064844,0.25,7.0,1.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,27.93717542064844,0.5,3.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,27.93717542064844,1.0,8.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,27.93717542064844,1.75,4.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,28.73239804345807,0.025,6.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,28.73239804345807,0.05,2.0,3.0,0.016,Monte Carlo log-normal; các điện cực độc lập
+gpr,28.73239804345807,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,28.73239804345807,0.1,1.0,7.0,0.984,Monte Carlo log-normal; các điện cực độc lập
+gpr,28.73239804345807,0.25,7.0,1.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,28.73239804345807,0.5,3.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,28.73239804345807,1.0,8.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,28.73239804345807,1.75,4.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,29.55025641989372,0.025,6.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,29.55025641989372,0.05,2.0,3.0,0.01075,Monte Carlo log-normal; các điện cực độc lập
+gpr,29.55025641989372,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,29.55025641989372,0.1,1.0,7.0,0.98925,Monte Carlo log-normal; các điện cực độc lập
+gpr,29.55025641989372,0.25,7.0,1.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,29.55025641989372,0.5,3.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,29.55025641989372,1.0,8.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,29.55025641989372,1.75,4.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,30.391394869328977,0.025,6.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,30.391394869328977,0.05,2.0,3.0,0.01525,Monte Carlo log-normal; các điện cực độc lập
+gpr,30.391394869328977,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,30.391394869328977,0.1,1.0,7.0,0.98475,Monte Carlo log-normal; các điện cực độc lập
+gpr,30.391394869328977,0.25,7.0,1.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,30.391394869328977,0.5,3.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,30.391394869328977,1.0,8.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,30.391394869328977,1.75,4.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,31.256476051479154,0.025,6.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,31.256476051479154,0.05,2.0,3.0,0.01275,Monte Carlo log-normal; các điện cực độc lập
+gpr,31.256476051479154,0.075,5.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,31.256476051479154,0.1,1.0,7.0,0.98725,Monte Carlo log-normal; các điện cực độc lập
+gpr,31.256476051479154,0.25,7.0,1.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,31.256476051479154,0.5,3.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,31.256476051479154,1.0,8.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,31.256476051479154,1.75,4.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,32.14618148845304,0.025,5.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,32.14618148845304,0.05,2.0,3.0,0.01,Monte Carlo log-normal; các điện cực độc lập
+gpr,32.14618148845304,0.075,6.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,32.14618148845304,0.1,1.0,7.0,0.99,Monte Carlo log-normal; các điện cực độc lập
+gpr,32.14618148845304,0.25,7.0,1.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,32.14618148845304,0.5,3.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,32.14618148845304,1.0,8.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,32.14618148845304,1.75,4.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,33.06121210166488,0.025,5.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,33.06121210166488,0.05,2.0,3.0,0.0125,Monte Carlo log-normal; các điện cực độc lập
+gpr,33.06121210166488,0.075,6.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,33.06121210166488,0.1,1.0,5.0,0.9875,Monte Carlo log-normal; các điện cực độc lập
+gpr,33.06121210166488,0.25,7.0,1.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,33.06121210166488,0.5,3.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,33.06121210166488,1.0,8.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,33.06121210166488,1.75,4.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,34.00228876402924,0.025,5.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,34.00228876402924,0.05,2.0,3.0,0.0085,Monte Carlo log-normal; các điện cực độc lập
+gpr,34.00228876402924,0.075,6.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,34.00228876402924,0.1,1.0,5.0,0.9915,Monte Carlo log-normal; các điện cực độc lập
+gpr,34.00228876402924,0.25,7.0,1.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,34.00228876402924,0.5,3.0,4.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,34.00228876402924,1.0,8.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,34.00228876402924,1.75,4.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,34.970152867874084,0.025,5.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,34.970152867874084,0.05,2.0,4.0,0.0115,Monte Carlo log-normal; các điện cực độc lập
+gpr,34.970152867874084,0.075,7.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,34.970152867874084,0.1,1.0,2.0,0.9885,Monte Carlo log-normal; các điện cực độc lập
+gpr,34.970152867874084,0.25,6.0,1.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,34.970152867874084,0.5,3.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,34.970152867874084,1.0,8.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,34.970152867874084,1.75,4.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,35.96556690901909,0.025,5.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,35.96556690901909,0.05,2.0,4.0,0.00925,Monte Carlo log-normal; các điện cực độc lập
+gpr,35.96556690901909,0.075,7.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,35.96556690901909,0.1,1.0,1.0,0.99075,Monte Carlo log-normal; các điện cực độc lập
+gpr,35.96556690901909,0.25,6.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,35.96556690901909,0.5,3.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,35.96556690901909,1.0,8.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,35.96556690901909,1.75,4.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,36.989315087479795,0.025,5.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,36.989315087479795,0.05,2.0,4.0,0.0115,Monte Carlo log-normal; các điện cực độc lập
+gpr,36.989315087479795,0.075,7.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,36.989315087479795,0.1,1.0,1.0,0.9885,Monte Carlo log-normal; các điện cực độc lập
+gpr,36.989315087479795,0.25,6.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,36.989315087479795,0.5,3.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,36.989315087479795,1.0,8.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,36.989315087479795,1.75,4.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,38.04220392527038,0.025,5.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,38.04220392527038,0.05,2.0,4.0,0.0065,Monte Carlo log-normal; các điện cực độc lập
+gpr,38.04220392527038,0.075,7.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,38.04220392527038,0.1,1.0,1.0,0.9935,Monte Carlo log-normal; các điện cực độc lập
+gpr,38.04220392527038,0.25,6.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,38.04220392527038,0.5,3.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,38.04220392527038,1.0,8.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,38.04220392527038,1.75,4.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,39.12506290179216,0.025,5.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,39.12506290179216,0.05,2.0,4.0,0.012,Monte Carlo log-normal; các điện cực độc lập
+gpr,39.12506290179216,0.075,7.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,39.12506290179216,0.1,1.0,1.0,0.988,Monte Carlo log-normal; các điện cực độc lập
+gpr,39.12506290179216,0.25,6.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,39.12506290179216,0.5,3.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,39.12506290179216,1.0,8.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,39.12506290179216,1.75,4.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,40.238745107308155,0.025,5.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,40.238745107308155,0.05,2.0,4.0,0.0085,Monte Carlo log-normal; các điện cực độc lập
+gpr,40.238745107308155,0.075,7.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,40.238745107308155,0.1,1.0,1.0,0.9915,Monte Carlo log-normal; các điện cực độc lập
+gpr,40.238745107308155,0.25,6.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,40.238745107308155,0.5,3.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,40.238745107308155,1.0,8.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,40.238745107308155,1.75,4.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,41.38412791501863,0.025,5.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,41.38412791501863,0.05,2.0,4.0,0.01025,Monte Carlo log-normal; các điện cực độc lập
+gpr,41.38412791501863,0.075,7.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,41.38412791501863,0.1,1.0,1.0,0.98975,Monte Carlo log-normal; các điện cực độc lập
+gpr,41.38412791501863,0.25,6.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,41.38412791501863,0.5,3.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,41.38412791501863,1.0,8.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,41.38412791501863,1.75,4.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,42.562113672266904,0.025,5.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,42.562113672266904,0.05,2.0,4.0,0.01125,Monte Carlo log-normal; các điện cực độc lập
+gpr,42.562113672266904,0.075,7.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,42.562113672266904,0.1,1.0,1.0,0.98875,Monte Carlo log-normal; các điện cực độc lập
+gpr,42.562113672266904,0.25,6.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,42.562113672266904,0.5,3.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,42.562113672266904,1.0,8.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,42.562113672266904,1.75,4.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,43.77363041142037,0.025,5.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,43.77363041142037,0.05,2.0,4.0,0.007,Monte Carlo log-normal; các điện cực độc lập
+gpr,43.77363041142037,0.075,7.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,43.77363041142037,0.1,1.0,1.0,0.993,Monte Carlo log-normal; các điện cực độc lập
+gpr,43.77363041142037,0.25,6.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,43.77363041142037,0.5,3.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,43.77363041142037,1.0,8.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,43.77363041142037,1.75,4.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,45.019632580986226,0.025,5.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,45.019632580986226,0.05,2.0,4.0,0.01075,Monte Carlo log-normal; các điện cực độc lập
+gpr,45.019632580986226,0.075,7.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,45.019632580986226,0.1,1.0,1.0,0.98925,Monte Carlo log-normal; các điện cực độc lập
+gpr,45.019632580986226,0.25,6.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,45.019632580986226,0.5,3.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,45.019632580986226,1.0,8.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,45.019632580986226,1.75,4.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,46.30110179753838,0.025,5.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,46.30110179753838,0.05,2.0,4.0,0.009,Monte Carlo log-normal; các điện cực độc lập
+gpr,46.30110179753838,0.075,7.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,46.30110179753838,0.1,1.0,1.0,0.991,Monte Carlo log-normal; các điện cực độc lập
+gpr,46.30110179753838,0.25,6.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,46.30110179753838,0.5,3.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,46.30110179753838,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,46.30110179753838,1.75,4.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,47.61904761904762,0.025,5.0,3.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,47.61904761904762,0.05,2.0,4.0,0.01025,Monte Carlo log-normal; các điện cực độc lập
+gpr,47.61904761904762,0.075,7.0,6.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,47.61904761904762,0.1,1.0,1.0,0.98975,Monte Carlo log-normal; các điện cực độc lập
+gpr,47.61904761904762,0.25,6.0,2.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,47.61904761904762,0.5,3.0,5.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,47.61904761904762,1.0,8.0,7.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+gpr,47.61904761904762,1.75,4.0,8.0,0.0,Monte Carlo log-normal; các điện cực độc lập
+mlp,9.09090909090909,0.025,7.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.09090909090909,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.09090909090909,0.075,5.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.09090909090909,0.1,1.0,3.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.09090909090909,0.25,8.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.09090909090909,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.09090909090909,1.0,6.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.09090909090909,1.75,4.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.34967886495194,0.025,7.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.34967886495194,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.34967886495194,0.075,5.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.34967886495194,0.1,1.0,3.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.34967886495194,0.25,8.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.34967886495194,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.34967886495194,1.0,6.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.34967886495194,1.75,4.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.615814436550195,0.025,7.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.615814436550195,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.615814436550195,0.075,6.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.615814436550195,0.1,1.0,3.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.615814436550195,0.25,8.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.615814436550195,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.615814436550195,1.0,5.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.615814436550195,1.75,4.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.889525470738446,0.025,7.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.889525470738446,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.889525470738446,0.075,6.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.889525470738446,0.1,1.0,4.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.889525470738446,0.25,8.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.889525470738446,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.889525470738446,1.0,5.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,9.889525470738446,1.75,4.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,10.17102760059839,0.025,7.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,10.17102760059839,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,10.17102760059839,0.075,6.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,10.17102760059839,0.1,1.0,4.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,10.17102760059839,0.25,8.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,10.17102760059839,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,10.17102760059839,1.0,5.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,10.17102760059839,1.75,4.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,10.460542597137337,0.025,7.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,10.460542597137337,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,10.460542597137337,0.075,6.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,10.460542597137337,0.1,1.0,4.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,10.460542597137337,0.25,8.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,10.460542597137337,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,10.460542597137337,1.0,5.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,10.460542597137337,1.75,4.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,10.758298544002296,0.025,7.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,10.758298544002296,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,10.758298544002296,0.075,6.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,10.758298544002296,0.1,1.0,4.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,10.758298544002296,0.25,8.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,10.758298544002296,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,10.758298544002296,1.0,5.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,10.758298544002296,1.75,4.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,11.06453001716717,0.025,7.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,11.06453001716717,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,11.06453001716717,0.075,6.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,11.06453001716717,0.1,1.0,4.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,11.06453001716717,0.25,8.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,11.06453001716717,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,11.06453001716717,1.0,5.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,11.06453001716717,1.75,4.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,11.379478269734763,0.025,7.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,11.379478269734763,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,11.379478269734763,0.075,6.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,11.379478269734763,0.1,1.0,4.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,11.379478269734763,0.25,8.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,11.379478269734763,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,11.379478269734763,1.0,5.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,11.379478269734763,1.75,4.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,11.703391421999095,0.025,7.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,11.703391421999095,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,11.703391421999095,0.075,5.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,11.703391421999095,0.1,1.0,5.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,11.703391421999095,0.25,8.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,11.703391421999095,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,11.703391421999095,1.0,6.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,11.703391421999095,1.75,4.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,12.036524656917733,0.025,7.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,12.036524656917733,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,12.036524656917733,0.075,5.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,12.036524656917733,0.1,1.0,5.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,12.036524656917733,0.25,8.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,12.036524656917733,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,12.036524656917733,1.0,6.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,12.036524656917733,1.75,4.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,12.379140421148229,0.025,7.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,12.379140421148229,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,12.379140421148229,0.075,5.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,12.379140421148229,0.1,1.0,6.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,12.379140421148229,0.25,8.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,12.379140421148229,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,12.379140421148229,1.0,6.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,12.379140421148229,1.75,4.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,12.731508631807012,0.025,7.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,12.731508631807012,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,12.731508631807012,0.075,5.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,12.731508631807012,0.1,1.0,6.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,12.731508631807012,0.25,8.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,12.731508631807012,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,12.731508631807012,1.0,6.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,12.731508631807012,1.75,4.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,13.09390688911352,0.025,7.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,13.09390688911352,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,13.09390688911352,0.075,5.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,13.09390688911352,0.1,1.0,6.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,13.09390688911352,0.25,8.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,13.09390688911352,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,13.09390688911352,1.0,6.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,13.09390688911352,1.75,4.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,13.466620695087261,0.025,7.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,13.466620695087261,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,13.466620695087261,0.075,5.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,13.466620695087261,0.1,1.0,6.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,13.466620695087261,0.25,8.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,13.466620695087261,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,13.466620695087261,1.0,6.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,13.466620695087261,1.75,4.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,13.849943678470003,0.025,6.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,13.849943678470003,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,13.849943678470003,0.075,5.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,13.849943678470003,0.1,1.0,6.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,13.849943678470003,0.25,8.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,13.849943678470003,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,13.849943678470003,1.0,7.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,13.849943678470003,1.75,4.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,14.244177826050237,0.025,6.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,14.244177826050237,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,14.244177826050237,0.075,5.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,14.244177826050237,0.1,1.0,7.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,14.244177826050237,0.25,8.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,14.244177826050237,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,14.244177826050237,1.0,7.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,14.244177826050237,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,14.649633720572288,0.025,6.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,14.649633720572288,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,14.649633720572288,0.075,5.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,14.649633720572288,0.1,1.0,7.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,14.649633720572288,0.25,8.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,14.649633720572288,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,14.649633720572288,1.0,7.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,14.649633720572288,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,15.066630785417425,0.025,6.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,15.066630785417425,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,15.066630785417425,0.075,5.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,15.066630785417425,0.1,1.0,7.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,15.066630785417425,0.25,8.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,15.066630785417425,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,15.066630785417425,1.0,7.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,15.066630785417425,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,15.49549753624968,0.025,6.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,15.49549753624968,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,15.49549753624968,0.075,5.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,15.49549753624968,0.1,1.0,8.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,15.49549753624968,0.25,8.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,15.49549753624968,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,15.49549753624968,1.0,7.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,15.49549753624968,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,15.936571839824735,0.025,6.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,15.936571839824735,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,15.936571839824735,0.075,5.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,15.936571839824735,0.1,1.0,8.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,15.936571839824735,0.25,8.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,15.936571839824735,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,15.936571839824735,1.0,7.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,15.936571839824735,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,16.390201180165743,0.025,6.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,16.390201180165743,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,16.390201180165743,0.075,5.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,16.390201180165743,0.1,1.0,8.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,16.390201180165743,0.25,7.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,16.390201180165743,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,16.390201180165743,1.0,8.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,16.390201180165743,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,16.85674293231567,0.025,5.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,16.85674293231567,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,16.85674293231567,0.075,6.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,16.85674293231567,0.1,1.0,8.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,16.85674293231567,0.25,7.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,16.85674293231567,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,16.85674293231567,1.0,8.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,16.85674293231567,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,17.336564643881978,0.025,5.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,17.336564643881978,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,17.336564643881978,0.075,6.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,17.336564643881978,0.1,1.0,8.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,17.336564643881978,0.25,7.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,17.336564643881978,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,17.336564643881978,1.0,8.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,17.336564643881978,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,17.830044324595413,0.025,5.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,17.830044324595413,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,17.830044324595413,0.075,6.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,17.830044324595413,0.1,1.0,8.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,17.830044324595413,0.25,7.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,17.830044324595413,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,17.830044324595413,1.0,8.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,17.830044324595413,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,18.337570744110863,0.025,5.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,18.337570744110863,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,18.337570744110863,0.075,6.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,18.337570744110863,0.1,1.0,8.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,18.337570744110863,0.25,7.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,18.337570744110863,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,18.337570744110863,1.0,8.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,18.337570744110863,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,18.85954373828519,0.025,5.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,18.85954373828519,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,18.85954373828519,0.075,6.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,18.85954373828519,0.1,1.0,8.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,18.85954373828519,0.25,7.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,18.85954373828519,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,18.85954373828519,1.0,8.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,18.85954373828519,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,19.396374524173,0.025,5.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,19.396374524173,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,19.396374524173,0.075,6.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,19.396374524173,0.1,1.0,8.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,19.396374524173,0.25,7.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,19.396374524173,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,19.396374524173,1.0,8.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,19.396374524173,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,19.948486023988792,0.025,5.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,19.948486023988792,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,19.948486023988792,0.075,6.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,19.948486023988792,0.1,1.0,8.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,19.948486023988792,0.25,7.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,19.948486023988792,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,19.948486023988792,1.0,8.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,19.948486023988792,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,20.51631319829049,0.025,5.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,20.51631319829049,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,20.51631319829049,0.075,6.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,20.51631319829049,0.1,1.0,8.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,20.51631319829049,0.25,7.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,20.51631319829049,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,20.51631319829049,1.0,8.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,20.51631319829049,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,21.10030338864704,0.025,5.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,21.10030338864704,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,21.10030338864704,0.075,6.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,21.10030338864704,0.1,1.0,7.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,21.10030338864704,0.25,7.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,21.10030338864704,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,21.10030338864704,1.0,8.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,21.10030338864704,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,21.700916670059772,0.025,5.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,21.700916670059772,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,21.700916670059772,0.075,6.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,21.700916670059772,0.1,1.0,7.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,21.700916670059772,0.25,7.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,21.700916670059772,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,21.700916670059772,1.0,8.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,21.700916670059772,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,22.31862621341553,0.025,5.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,22.31862621341553,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,22.31862621341553,0.075,6.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,22.31862621341553,0.1,1.0,7.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,22.31862621341553,0.25,7.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,22.31862621341553,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,22.31862621341553,1.0,8.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,22.31862621341553,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,22.953918658256704,0.025,5.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,22.953918658256704,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,22.953918658256704,0.075,6.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,22.953918658256704,0.1,1.0,7.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,22.953918658256704,0.25,7.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,22.953918658256704,0.5,3.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,22.953918658256704,1.0,8.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,22.953918658256704,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,23.60729449616217,0.025,5.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,23.60729449616217,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,23.60729449616217,0.075,6.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,23.60729449616217,0.1,1.0,7.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,23.60729449616217,0.25,7.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,23.60729449616217,0.5,3.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,23.60729449616217,1.0,8.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,23.60729449616217,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,24.279268465041007,0.025,5.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,24.279268465041007,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,24.279268465041007,0.075,6.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,24.279268465041007,0.1,1.0,7.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,24.279268465041007,0.25,7.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,24.279268465041007,0.5,3.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,24.279268465041007,1.0,8.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,24.279268465041007,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,24.970369954649698,0.025,5.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,24.970369954649698,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,24.970369954649698,0.075,6.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,24.970369954649698,0.1,1.0,7.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,24.970369954649698,0.25,7.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,24.970369954649698,0.5,3.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,24.970369954649698,1.0,8.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,24.970369954649698,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,25.681143423652113,0.025,5.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,25.681143423652113,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,25.681143423652113,0.075,6.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,25.681143423652113,0.1,1.0,7.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,25.681143423652113,0.25,7.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,25.681143423652113,0.5,3.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,25.681143423652113,1.0,8.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,25.681143423652113,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,26.412148828551178,0.025,5.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,26.412148828551178,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,26.412148828551178,0.075,6.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,26.412148828551178,0.1,1.0,7.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,26.412148828551178,0.25,7.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,26.412148828551178,0.5,3.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,26.412148828551178,1.0,8.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,26.412148828551178,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,27.163962064829725,0.025,5.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,27.163962064829725,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,27.163962064829725,0.075,6.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,27.163962064829725,0.1,1.0,7.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,27.163962064829725,0.25,7.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,27.163962064829725,0.5,3.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,27.163962064829725,1.0,8.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,27.163962064829725,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,27.93717542064844,0.025,5.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,27.93717542064844,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,27.93717542064844,0.075,6.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,27.93717542064844,0.1,1.0,7.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,27.93717542064844,0.25,7.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,27.93717542064844,0.5,3.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,27.93717542064844,1.0,8.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,27.93717542064844,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,28.73239804345807,0.025,5.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,28.73239804345807,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,28.73239804345807,0.075,6.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,28.73239804345807,0.1,1.0,7.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,28.73239804345807,0.25,7.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,28.73239804345807,0.5,3.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,28.73239804345807,1.0,8.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,28.73239804345807,1.75,4.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,29.55025641989372,0.025,5.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,29.55025641989372,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,29.55025641989372,0.075,6.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,29.55025641989372,0.1,1.0,7.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,29.55025641989372,0.25,7.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,29.55025641989372,0.5,3.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,29.55025641989372,1.0,8.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,29.55025641989372,1.75,4.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,30.391394869328977,0.025,5.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,30.391394869328977,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,30.391394869328977,0.075,6.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,30.391394869328977,0.1,1.0,7.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,30.391394869328977,0.25,7.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,30.391394869328977,0.5,3.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,30.391394869328977,1.0,8.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,30.391394869328977,1.75,4.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,31.256476051479154,0.025,5.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,31.256476051479154,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,31.256476051479154,0.075,6.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,31.256476051479154,0.1,1.0,7.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,31.256476051479154,0.25,7.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,31.256476051479154,0.5,3.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,31.256476051479154,1.0,8.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,31.256476051479154,1.75,4.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,32.14618148845304,0.025,5.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,32.14618148845304,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,32.14618148845304,0.075,7.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,32.14618148845304,0.1,1.0,7.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,32.14618148845304,0.25,6.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,32.14618148845304,0.5,3.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,32.14618148845304,1.0,8.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,32.14618148845304,1.75,4.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,33.06121210166488,0.025,5.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,33.06121210166488,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,33.06121210166488,0.075,7.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,33.06121210166488,0.1,1.0,6.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,33.06121210166488,0.25,6.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,33.06121210166488,0.5,3.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,33.06121210166488,1.0,8.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,33.06121210166488,1.75,4.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,34.00228876402924,0.025,5.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,34.00228876402924,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,34.00228876402924,0.075,7.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,34.00228876402924,0.1,1.0,5.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,34.00228876402924,0.25,6.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,34.00228876402924,0.5,3.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,34.00228876402924,1.0,8.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,34.00228876402924,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,34.970152867874084,0.025,5.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,34.970152867874084,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,34.970152867874084,0.075,7.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,34.970152867874084,0.1,1.0,5.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,34.970152867874084,0.25,6.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,34.970152867874084,0.5,3.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,34.970152867874084,1.0,8.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,34.970152867874084,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,35.96556690901909,0.025,5.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,35.96556690901909,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,35.96556690901909,0.075,7.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,35.96556690901909,0.1,1.0,4.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,35.96556690901909,0.25,6.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,35.96556690901909,0.5,3.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,35.96556690901909,1.0,8.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,35.96556690901909,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,36.989315087479795,0.025,5.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,36.989315087479795,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,36.989315087479795,0.075,7.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,36.989315087479795,0.1,1.0,3.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,36.989315087479795,0.25,6.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,36.989315087479795,0.5,3.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,36.989315087479795,1.0,8.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,36.989315087479795,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,38.04220392527038,0.025,5.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,38.04220392527038,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,38.04220392527038,0.075,7.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,38.04220392527038,0.1,1.0,3.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,38.04220392527038,0.25,6.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,38.04220392527038,0.5,3.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,38.04220392527038,1.0,8.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,38.04220392527038,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,39.12506290179216,0.025,5.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,39.12506290179216,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,39.12506290179216,0.075,7.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,39.12506290179216,0.1,1.0,3.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,39.12506290179216,0.25,6.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,39.12506290179216,0.5,3.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,39.12506290179216,1.0,8.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,39.12506290179216,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,40.238745107308155,0.025,5.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,40.238745107308155,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,40.238745107308155,0.075,7.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,40.238745107308155,0.1,1.0,3.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,40.238745107308155,0.25,6.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,40.238745107308155,0.5,3.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,40.238745107308155,1.0,8.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,40.238745107308155,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,41.38412791501863,0.025,5.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,41.38412791501863,0.05,2.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,41.38412791501863,0.075,7.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,41.38412791501863,0.1,1.0,3.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,41.38412791501863,0.25,6.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,41.38412791501863,0.5,3.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,41.38412791501863,1.0,8.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,41.38412791501863,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,42.562113672266904,0.025,5.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,42.562113672266904,0.05,2.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,42.562113672266904,0.075,7.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,42.562113672266904,0.1,1.0,3.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,42.562113672266904,0.25,6.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,42.562113672266904,0.5,3.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,42.562113672266904,1.0,8.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,42.562113672266904,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,43.77363041142037,0.025,5.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,43.77363041142037,0.05,2.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,43.77363041142037,0.075,7.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,43.77363041142037,0.1,1.0,2.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,43.77363041142037,0.25,6.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,43.77363041142037,0.5,3.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,43.77363041142037,1.0,8.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,43.77363041142037,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,45.019632580986226,0.025,5.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,45.019632580986226,0.05,2.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,45.019632580986226,0.075,7.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,45.019632580986226,0.1,1.0,2.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,45.019632580986226,0.25,6.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,45.019632580986226,0.5,3.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,45.019632580986226,1.0,8.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,45.019632580986226,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,46.30110179753838,0.025,5.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,46.30110179753838,0.05,2.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,46.30110179753838,0.075,7.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,46.30110179753838,0.1,1.0,2.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,46.30110179753838,0.25,6.0,1.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,46.30110179753838,0.5,3.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,46.30110179753838,1.0,8.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,46.30110179753838,1.75,4.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,47.61904761904762,0.025,5.0,5.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,47.61904761904762,0.05,2.0,3.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,47.61904761904762,0.075,7.0,4.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,47.61904761904762,0.1,1.0,1.0,1.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,47.61904761904762,0.25,6.0,2.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,47.61904761904762,0.5,3.0,8.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,47.61904761904762,1.0,8.0,6.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"
+mlp,47.61904761904762,1.75,4.0,7.0,0.0,"Tần suất tốt nhất qua seed, không phải xác suất dự đoán"

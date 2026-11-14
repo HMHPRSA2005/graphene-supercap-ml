@@ -1,0 +1,70 @@
+{
+  "moi_buoc": 2000,
+  "n_ao": 1000,
+  "nhanh": false,
+  "quy_tac_so_vong_fit": "ceil(so_mau_hoc/n_khoi_dau), chan boi so_vong neu chi dinh",
+  "so_vong_hoc_tiep": {
+    "gng_r": 4,
+    "pgcn_r": 4
+  },
+  "tang_cuong": {
+    "cach": "C",
+    "mass_err": 0.02,
+    "meas_err": 0.01,
+    "n_ao": 1000,
+    "n_j_D": 12,
+    "nhieu_B": 0.02,
+    "sigma_lap": 0.03
+  },
+  "tham_so_do_thi": {
+    "gng_r": {
+      "alpha": 0.5,
+      "eta_b": 0.05,
+      "eta_n": 0.005,
+      "eta_o": 0.2,
+      "he_so_giam_loi": 0.995,
+      "lam_chen": 100,
+      "nguong_mse": 0.002,
+      "sigma_min": 0.025,
+      "so_mau_hoc": 20000,
+      "so_nut_max": 300,
+      "so_vong": 4,
+      "tuoi_canh_max": 100
+    },
+    "pgcn_r": {
+      "alpha": 0.5,
+      "delta": 0.05,
+      "eta_b": 0.05,
+      "eta_n": 0.005,
+      "eta_o": 0.2,
+      "he_so_giam_loi": 0.995,
+      "he_so_hoc_min": 0.2,
+      "lam_chen": 100,
+      "nguong_chen": 0.02,
+      "nguong_mse": 0.002,
+      "sigma_min": 0.025,
+      "so_mau_hoc": 20000,
+      "so_nut_max": 300,
+      "so_vong": 4,
+      "t_dai": 200,
+      "t_ngan": 20,
+      "tuoi_canh_max": 100,
+      "tuoi_nut_moi": 50
+    }
+  },
+  "tham_so_mlp": {
+    "alpha": 0.001,
+    "batch_size": "auto",
+    "early_stopping": false,
+    "hidden_layer_sizes": [
+      32,
+      16
+    ],
+    "learning_rate_init": 0.001,
+    "so_buoc": 6000,
+    "so_vong_tinh_chinh": 10,
+    "solver": "adam",
+    "tol": 0.0
+  },
+  "tham_so_pgcn": {}
+}

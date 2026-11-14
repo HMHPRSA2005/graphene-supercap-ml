@@ -1,0 +1,75 @@
+% Cần \usepackage{booktabs,longtable}
+% Phụ lục: mô hình đồ thị (tham khảo). C ×100, σ=3%; n=10 seed; sai số trung bình điện cực rồi seed; số lỗi cộng qua seed. MAE/RMSE Csp: F/g; R² không xác định nếu ít hơn 2 điểm hợp lệ hoặc số đo không biến thiên. Thời gian (s): trung bình mỗi lần học trong seed rồi trung bình ± SD qua seed, không đếm lặp điểm kiểm tra. KB1 bỏ 0,075: chỉ loại điện cực này khi tổng hợp, không khớp lại; KB2 là thí nghiệm riêng.
+\par\smallskip\noindent Phụ lục: mô hình đồ thị (tham khảo). C ×100, σ=3\%; n=10 seed; sai số trung bình điện cực rồi seed; số lỗi cộng qua seed. MAE/RMSE Csp: F/g; R² không xác định nếu ít hơn 2 điểm hợp lệ hoặc số đo không biến thiên. Thời gian (s): trung bình mỗi lần học trong seed rồi trung bình $\pm$ SD qua seed, không đếm lặp điểm kiểm tra. KB1 bỏ 0,075: chỉ loại điện cực này khi tổng hợp, không khớp lại; KB2 là thí nghiệm riêng.\par
+\begin{longtable}{p{0.43\linewidth}p{0.50\linewidth}}
+\toprule Chỉ tiêu & Giá trị \\ \midrule \endhead
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 1: kb=KB1; mo\_hinh=gng\_r; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 33.093 $\pm$ 3.320 \\
+MAPE\_\allowbreak Pd & 13.973 $\pm$ 0.875 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 0.463 $\pm$ 0.049 \\
+MAE\_\allowbreak Csp & 64.726 $\pm$ 7.392 \\
+RMSE\_\allowbreak Csp & 73.035 $\pm$ 8.957 \\
+R2\_\allowbreak Csp & -0.541 $\pm$ 0.286 \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+tong\_\allowbreak du\_\allowbreak doan & 320 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.096 $\pm$ 0.013 \\
+t\_\allowbreak hoc\_\allowbreak s & 18.995 $\pm$ 1.702 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.002 $\pm$ 0.001 \\
+MAPE\_\allowbreak Csp\_\allowbreak bo\_\allowbreak 0075 & 33.851 $\pm$ 3.045 \\
+MAPE\_\allowbreak Pd\_\allowbreak bo\_\allowbreak 0075 & 13.896 $\pm$ 1.034 \\
+ten\_\allowbreak bang & Phụ lục: mô hình đồ thị (tham khảo) \\
+\midrule
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 2: kb=KB1; mo\_hinh=pgcn\_r; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 22.961 $\pm$ 1.359 \\
+MAPE\_\allowbreak Pd & 12.387 $\pm$ 0.551 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 0.313 $\pm$ 0.038 \\
+MAE\_\allowbreak Csp & 45.916 $\pm$ 3.040 \\
+RMSE\_\allowbreak Csp & 57.425 $\pm$ 4.633 \\
+R2\_\allowbreak Csp & 0.122 $\pm$ 0.150 \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+tong\_\allowbreak du\_\allowbreak doan & 320 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.107 $\pm$ 0.013 \\
+t\_\allowbreak hoc\_\allowbreak s & 19.050 $\pm$ 0.905 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.002 $\pm$ 0.000 \\
+MAPE\_\allowbreak Csp\_\allowbreak bo\_\allowbreak 0075 & 22.601 $\pm$ 1.189 \\
+MAPE\_\allowbreak Pd\_\allowbreak bo\_\allowbreak 0075 & 12.923 $\pm$ 0.545 \\
+ten\_\allowbreak bang & Phụ lục: mô hình đồ thị (tham khảo) \\
+\midrule
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 3: kb=KB2; mo\_hinh=gng\_r; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 609.987 $\pm$ 147.590 \\
+MAPE\_\allowbreak Pd & 31.338 $\pm$ 3.291 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 1.345 $\pm$ 0.116 \\
+MAE\_\allowbreak Csp & 56.760 $\pm$ 13.823 \\
+RMSE\_\allowbreak Csp & 56.760 $\pm$ 13.823 \\
+R2\_\allowbreak Csp & — \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+tong\_\allowbreak du\_\allowbreak doan & 80 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.132 $\pm$ 0.037 \\
+t\_\allowbreak hoc\_\allowbreak s & 30.197 $\pm$ 2.003 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.005 $\pm$ 0.005 \\
+MAPE\_\allowbreak Csp\_\allowbreak bo\_\allowbreak 0075 & — \\
+MAPE\_\allowbreak Pd\_\allowbreak bo\_\allowbreak 0075 & — \\
+ten\_\allowbreak bang & Phụ lục: mô hình đồ thị (tham khảo) \\
+\midrule
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 4: kb=KB2; mo\_hinh=pgcn\_r; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 463.095 $\pm$ 153.072 \\
+MAPE\_\allowbreak Pd & 38.401 $\pm$ 7.131 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 1.245 $\pm$ 0.146 \\
+MAE\_\allowbreak Csp & 51.799 $\pm$ 15.089 \\
+RMSE\_\allowbreak Csp & 51.799 $\pm$ 15.089 \\
+R2\_\allowbreak Csp & — \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+tong\_\allowbreak du\_\allowbreak doan & 80 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.146 $\pm$ 0.033 \\
+t\_\allowbreak hoc\_\allowbreak s & 36.178 $\pm$ 3.093 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.003 $\pm$ 0.001 \\
+MAPE\_\allowbreak Csp\_\allowbreak bo\_\allowbreak 0075 & — \\
+MAPE\_\allowbreak Pd\_\allowbreak bo\_\allowbreak 0075 & — \\
+ten\_\allowbreak bang & Phụ lục: mô hình đồ thị (tham khảo) \\
+\midrule
+\bottomrule
+\end{longtable}

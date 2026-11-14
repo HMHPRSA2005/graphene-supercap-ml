@@ -1,0 +1,247 @@
+% Cần \usepackage{booktabs,longtable}
+% C ×100, σ=3%; n=10 seed; sai số trung bình điện cực rồi seed; số lỗi cộng qua seed. MAE/RMSE Csp: F/g; R² không xác định nếu ít hơn 2 điểm hợp lệ hoặc số đo không biến thiên. Thời gian (s): trung bình mỗi lần học trong seed rồi trung bình ± SD qua seed, không đếm lặp điểm kiểm tra. KB1 bỏ 0,075: chỉ loại điện cực này khi tổng hợp, không khớp lại; KB2 là thí nghiệm riêng.
+\par\smallskip\noindent C ×100, σ=3\%; n=10 seed; sai số trung bình điện cực rồi seed; số lỗi cộng qua seed. MAE/RMSE Csp: F/g; R² không xác định nếu ít hơn 2 điểm hợp lệ hoặc số đo không biến thiên. Thời gian (s): trung bình mỗi lần học trong seed rồi trung bình $\pm$ SD qua seed, không đếm lặp điểm kiểm tra. KB1 bỏ 0,075: chỉ loại điện cực này khi tổng hợp, không khớp lại; KB2 là thí nghiệm riêng.\par
+\begin{longtable}{p{0.43\linewidth}p{0.50\linewidth}}
+\toprule Chỉ tiêu & Giá trị \\ \midrule \endhead
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 1: kb=KB1; mo\_hinh=chon\_dang\_ham; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 9.328 $\pm$ 0.000 \\
+MAPE\_\allowbreak Pd & 13.132 $\pm$ 0.000 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 0.122 $\pm$ 0.000 \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.067 $\pm$ 0.003 \\
+t\_\allowbreak hoc\_\allowbreak s & 2.575 $\pm$ 0.016 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.001 $\pm$ 0.000 \\
+\midrule
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 2: kb=KB1; mo\_hinh=gb; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 18.036 $\pm$ 0.659 \\
+MAPE\_\allowbreak Pd & 15.206 $\pm$ 0.257 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 0.221 $\pm$ 0.010 \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.065 $\pm$ 0.001 \\
+t\_\allowbreak hoc\_\allowbreak s & 2.130 $\pm$ 0.022 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.004 $\pm$ 0.000 \\
+\midrule
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 3: kb=KB1; mo\_hinh=gpr; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 34.395 $\pm$ 9.737 \\
+MAPE\_\allowbreak Pd & 15.120 $\pm$ 1.255 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 0.489 $\pm$ 0.117 \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.073 $\pm$ 0.003 \\
+t\_\allowbreak hoc\_\allowbreak s & 8.264 $\pm$ 0.573 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.003 $\pm$ 0.000 \\
+\midrule
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 4: kb=KB1; mo\_hinh=ham\_mu; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 9.598 $\pm$ 0.000 \\
+MAPE\_\allowbreak Pd & 13.132 $\pm$ 0.000 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 0.117 $\pm$ 0.000 \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.067 $\pm$ 0.004 \\
+t\_\allowbreak hoc\_\allowbreak s & 2.527 $\pm$ 0.021 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.001 $\pm$ 0.000 \\
+\midrule
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 5: kb=KB1; mo\_hinh=mlp; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 13.631 $\pm$ 1.171 \\
+MAPE\_\allowbreak Pd & 12.580 $\pm$ 0.648 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 0.167 $\pm$ 0.012 \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.065 $\pm$ 0.001 \\
+t\_\allowbreak hoc\_\allowbreak s & 7.350 $\pm$ 0.073 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.002 $\pm$ 0.000 \\
+\midrule
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 6: kb=KB1; mo\_hinh=rf; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 27.095 $\pm$ 0.278 \\
+MAPE\_\allowbreak Pd & 12.549 $\pm$ 0.164 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 0.291 $\pm$ 0.006 \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.067 $\pm$ 0.003 \\
+t\_\allowbreak hoc\_\allowbreak s & 2.458 $\pm$ 0.016 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.038 $\pm$ 0.001 \\
+\midrule
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 7: kb=KB1; mo\_hinh=ridge; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 10.972 $\pm$ 0.049 \\
+MAPE\_\allowbreak Pd & 14.943 $\pm$ 0.043 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 0.127 $\pm$ 0.000 \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.063 $\pm$ 0.002 \\
+t\_\allowbreak hoc\_\allowbreak s & 0.109 $\pm$ 0.002 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.003 $\pm$ 0.000 \\
+\midrule
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 8: kb=KB1; mo\_hinh=svr; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 9.696 $\pm$ 0.103 \\
+MAPE\_\allowbreak Pd & 11.085 $\pm$ 0.116 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 0.112 $\pm$ 0.001 \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.073 $\pm$ 0.001 \\
+t\_\allowbreak hoc\_\allowbreak s & 1.144 $\pm$ 0.018 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.003 $\pm$ 0.000 \\
+\midrule
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 9: kb=KB2; mo\_hinh=chon\_dang\_ham; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 112.537 $\pm$ 0.000 \\
+MAPE\_\allowbreak Pd & 39.481 $\pm$ 0.000 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 0.628 $\pm$ 0.000 \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.069 $\pm$ 0.007 \\
+t\_\allowbreak hoc\_\allowbreak s & 2.635 $\pm$ 0.024 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.001 $\pm$ 0.000 \\
+\midrule
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 10: kb=KB2; mo\_hinh=gb; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 173.207 $\pm$ 7.945 \\
+MAPE\_\allowbreak Pd & 20.763 $\pm$ 0.516 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 0.737 $\pm$ 0.036 \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.066 $\pm$ 0.003 \\
+t\_\allowbreak hoc\_\allowbreak s & 2.212 $\pm$ 0.054 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.004 $\pm$ 0.000 \\
+\midrule
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 11: kb=KB2; mo\_hinh=gpr; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 344.835 $\pm$ 106.532 \\
+MAPE\_\allowbreak Pd & 32.386 $\pm$ 1.695 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 0.982 $\pm$ 0.166 \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.074 $\pm$ 0.005 \\
+t\_\allowbreak hoc\_\allowbreak s & 7.460 $\pm$ 0.756 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.003 $\pm$ 0.000 \\
+\midrule
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 12: kb=KB2; mo\_hinh=ham\_mu; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 144.415 $\pm$ 0.000 \\
+MAPE\_\allowbreak Pd & 39.481 $\pm$ 0.000 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 0.705 $\pm$ 0.000 \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.068 $\pm$ 0.005 \\
+t\_\allowbreak hoc\_\allowbreak s & 2.585 $\pm$ 0.019 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.001 $\pm$ 0.000 \\
+\midrule
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 13: kb=KB2; mo\_hinh=mlp; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 78.916 $\pm$ 14.382 \\
+MAPE\_\allowbreak Pd & 24.695 $\pm$ 7.195 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 0.487 $\pm$ 0.061 \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.066 $\pm$ 0.003 \\
+t\_\allowbreak hoc\_\allowbreak s & 5.439 $\pm$ 0.132 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.001 $\pm$ 0.000 \\
+\midrule
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 14: kb=KB2; mo\_hinh=rf; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 154.725 $\pm$ 1.746 \\
+MAPE\_\allowbreak Pd & 29.221 $\pm$ 0.602 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 0.869 $\pm$ 0.034 \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.065 $\pm$ 0.002 \\
+t\_\allowbreak hoc\_\allowbreak s & 1.970 $\pm$ 0.028 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.035 $\pm$ 0.001 \\
+\midrule
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 15: kb=KB2; mo\_hinh=ridge; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 50.811 $\pm$ 0.275 \\
+MAPE\_\allowbreak Pd & 41.290 $\pm$ 0.319 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 0.343 $\pm$ 0.002 \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.066 $\pm$ 0.003 \\
+t\_\allowbreak hoc\_\allowbreak s & 0.046 $\pm$ 0.001 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.002 $\pm$ 0.000 \\
+\midrule
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 16: kb=KB2; mo\_hinh=svr; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 60.292 $\pm$ 0.573 \\
+MAPE\_\allowbreak Pd & 20.421 $\pm$ 0.343 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 0.364 $\pm$ 0.005 \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.074 $\pm$ 0.003 \\
+t\_\allowbreak hoc\_\allowbreak s & 1.050 $\pm$ 0.024 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.003 $\pm$ 0.000 \\
+\midrule
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 17: kb=KB2\_BO\_0.075; mo\_hinh=chon\_dang\_ham; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 68.919 $\pm$ 0.000 \\
+MAPE\_\allowbreak Pd & 30.234 $\pm$ 0.000 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 0.482 $\pm$ 0.000 \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.061 $\pm$ 0.006 \\
+t\_\allowbreak hoc\_\allowbreak s & 2.335 $\pm$ 0.056 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.001 $\pm$ 0.000 \\
+\midrule
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 18: kb=KB2\_BO\_0.075; mo\_hinh=gb; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 91.390 $\pm$ 1.951 \\
+MAPE\_\allowbreak Pd & 14.943 $\pm$ 0.500 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 0.598 $\pm$ 0.010 \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.058 $\pm$ 0.005 \\
+t\_\allowbreak hoc\_\allowbreak s & 2.150 $\pm$ 0.046 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.004 $\pm$ 0.001 \\
+\midrule
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 19: kb=KB2\_BO\_0.075; mo\_hinh=gpr; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 256.825 $\pm$ 52.721 \\
+MAPE\_\allowbreak Pd & 23.770 $\pm$ 0.979 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 0.965 $\pm$ 0.169 \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.066 $\pm$ 0.008 \\
+t\_\allowbreak hoc\_\allowbreak s & 6.843 $\pm$ 0.476 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.003 $\pm$ 0.000 \\
+\midrule
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 20: kb=KB2\_BO\_0.075; mo\_hinh=ham\_mu; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 68.095 $\pm$ 0.000 \\
+MAPE\_\allowbreak Pd & 30.234 $\pm$ 0.000 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 0.513 $\pm$ 0.000 \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.062 $\pm$ 0.004 \\
+t\_\allowbreak hoc\_\allowbreak s & 2.293 $\pm$ 0.039 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.001 $\pm$ 0.000 \\
+\midrule
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 21: kb=KB2\_BO\_0.075; mo\_hinh=mlp; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 38.701 $\pm$ 7.363 \\
+MAPE\_\allowbreak Pd & 24.433 $\pm$ 8.431 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 0.367 $\pm$ 0.062 \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.030 $\pm$ 0.003 \\
+t\_\allowbreak hoc\_\allowbreak s & 2.618 $\pm$ 0.186 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.001 $\pm$ 0.000 \\
+\midrule
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 22: kb=KB2\_BO\_0.075; mo\_hinh=rf; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 125.559 $\pm$ 3.174 \\
+MAPE\_\allowbreak Pd & 20.934 $\pm$ 0.894 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 0.734 $\pm$ 0.019 \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.058 $\pm$ 0.003 \\
+t\_\allowbreak hoc\_\allowbreak s & 3.074 $\pm$ 0.063 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.048 $\pm$ 0.002 \\
+\midrule
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 23: kb=KB2\_BO\_0.075; mo\_hinh=ridge; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 22.462 $\pm$ 0.289 \\
+MAPE\_\allowbreak Pd & 38.446 $\pm$ 0.340 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 0.198 $\pm$ 0.003 \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.059 $\pm$ 0.005 \\
+t\_\allowbreak hoc\_\allowbreak s & 0.043 $\pm$ 0.003 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.002 $\pm$ 0.000 \\
+\midrule
+\multicolumn{2}{p{0.95\linewidth}}{\textbf{Bản ghi 24: kb=KB2\_BO\_0.075; mo\_hinh=svr; cach=C; n\_ao=100; sigma\_lap=0.03}} \\
+so\_\allowbreak seed & 10 \\
+MAPE\_\allowbreak Csp & 26.906 $\pm$ 0.537 \\
+MAPE\_\allowbreak Pd & 12.795 $\pm$ 0.266 \\
+RMSE\_\allowbreak log\_\allowbreak Csp & 0.226 $\pm$ 0.005 \\
+so\_\allowbreak khong\_\allowbreak hop\_\allowbreak le & 0 \\
+t\_\allowbreak sinh\_\allowbreak s & 0.069 $\pm$ 0.004 \\
+t\_\allowbreak hoc\_\allowbreak s & 1.035 $\pm$ 0.021 \\
+t\_\allowbreak du\_\allowbreak doan\_\allowbreak s & 0.003 $\pm$ 0.000 \\
+\midrule
+\bottomrule
+\end{longtable}

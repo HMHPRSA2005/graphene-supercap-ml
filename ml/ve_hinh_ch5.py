@@ -10,6 +10,9 @@ không cần Jinja2. Dữ liệu thiếu được thông báo, không thay bằn
 Ứng dụng mặc định cách A; đổi bằng --cach-ung-dung A|B|C|D.
 KB5 và mô hình đồ thị được xuất riêng với tiền tố phu_luc_ (tham khảo);
 nhóm chính khảo sát dữ liệu ảo chỉ gồm MLP, SVR, GPR.
+Ba bảng 5.2/5.3/5.6 *_gon pivot tối đa 6 cột ở cấu hình chuẩn, dùng
+tabular với nhãn tiếng Việt, số thập phân phẩy và ghi chú sau bảng.
+Các bảng đầy đủ giữ nguyên cho tra cứu.
 """
 from __future__ import annotations
 
@@ -34,12 +37,26 @@ TEN = {"ham_mu": "Hàm mũ", "chon_dang_ham": "Chọn dạng hàm", "ridge": "Ri
        "mlp": "MLP", "gpr": "GPR", "gng_r": "GNG-R", "pgcn_r": "PGCN-R",
        "tb_hinh_hoc": "TB hình học", "tb_theo_muc": "TB theo mức",
        "mlp_hoc_lai": "MLP học lại", "mlp_tinh_chinh": "MLP tinh chỉnh"}
+TEN_COT_GON = {
+    "kb": "KB", "mo_hinh": "Mô hình", "cach": "Cách", "n_ao": "Số mẫu ảo",
+    "MAPE_Csp": r"MAPE $C_{sp}$ (\%)", "MAPE_Pd": r"MAPE $P_d$ (\%)",
+    "RMSE_log_Csp": r"RMSE-log $C_{sp}$", "R2_Csp": r"$R^2$ $C_{sp}$",
+    "vung": "Vùng", "cau_hinh": "Cấu hình", "PICP": "PICP", "W_rel": r"$W_{\text{rel}}$",
+    "chinh_sach": "Chính sách", "k_nho_nhat": r"$k$ nhỏ nhất", "q": r"$q(k)$",
+    "MAPE_tb": r"MAPE TB (\%)", "MAPE_dien_cuc_lon_nhat": r"MAPE điện cực lớn nhất (\%)",
+    "ratio": "Tỉ lệ", "dong_mA": "I (mA)", "J": "J (A/g)",
+    "logCsp_sd": r"$\sigma_{\log C_{sp}}$", "khoi_luong_g": "m (g)",
+}
+TEN_GON = {**TEN, "rf": "RF", "gb": "GB"}
+THU_TU_GON = ("ham_mu", "chon_dang_ham", "ridge", "svr", "rf", "gb", "mlp", "gpr",
+              "tb_hinh_hoc", "tb_theo_muc")
 CAU_HINH = ["kb", "mo_hinh", "cach", "n_ao", "sigma_lap"]
 NHOM_GOC = ((0.025, 0.05, 0.075), (0.1, 0.25), (0.5, 1.0, 1.75))
 MO_HINH_DU_LIEU_AO = ("mlp", "svr", "gpr")
 GHI_CHU_KB5 = "Phụ lục: học liên tục (tham khảo)"
 GIOI_HAN_WILCOXON = ("Chỉ 8 điện cực: công suất kiểm định thấp; p hai phía nhỏ nhất "
                      "0,0078125 khi 8 hiệu khác 0 đồng dấu, trước hiệu chỉnh Holm.")
+TRAN_KB3 = 1e3  # % — trần trục Hình 5.6; giá trị vượt được ghi chú, không cắt khỏi bảng số liệu.
 
 
 def thong_bao(ten, ly_do):
@@ -70,7 +87,7 @@ class DauRa:
         self.hinh = Path(thu_muc) / "hinh_ch5"
         self.tep = []
 
-    def luu_bang(self, bang, ten, ghi_chu="", cot_tex=None):
+    def luu_bang(self, bang, ten, ghi_chu="", cot_tex=None, rong_cot=None, ten_cot=None):
         if bang.empty:
             thong_bao(ten, "bảng rỗng")
             return
@@ -103,12 +120,56 @@ class DauRa:
             dong.extend([r"\bottomrule", r"\end{longtable}", ""])
         else:
             rong = 0.90 / len(cot)
-            dong.extend([r"\begin{longtable}{" + (f"p{{{rong:.3f}\\linewidth}}" * len(cot)) + "}",
-                         r"\toprule", " & ".join(_tex(c) for c in cot) + r" \\ \midrule \endhead"])
+            kieu_cot = f"p{{{rong:.3f}\\linewidth}}" * len(cot)
+            if rong_cot is not None:
+                # Trừ cả khoảng đệm để bảng gọn không vượt bề rộng trang; canh trái để
+                # tiêu đề có công thức và ô "tb ± sd" không bị giãn chữ khi xuống dòng.
+                kieu_cot = "".join(f">{{\\raggedright\\arraybackslash}}"
+                                   f"p{{\\dimexpr{r:.3f}\\linewidth-{2*len(cot)*r:.3f}\\tabcolsep\\relax}}"
+                                   for r in rong_cot)
+                dong[0] = "% Cần \\usepackage{array,booktabs,longtable}"
+                dong.append(r"\small")
+            # Nhãn tùy chọn là LaTeX nội bộ, không escape lại công thức.
+            tieu_de = [(ten_cot or {}).get(c, _tex(c)) for c in cot]
+            if rong_cot is not None:
+                tieu_de = [c.replace(r"\_", r"\_\allowbreak ") for c in tieu_de]
+            dong.extend([r"\begin{longtable}{" + kieu_cot + "}",
+                         r"\toprule", " & ".join(tieu_de) + r" \\ \midrule \endhead"])
             for hang in bang[cot].itertuples(index=False, name=None):
-                dong.append(" & ".join(_tex("—" if pd.isna(v) else f"{v:.6g}" if isinstance(v, float) else v)
-                                       for v in hang) + r" \\")
-            dong.extend([r"\bottomrule", r"\end{longtable}", ""])
+                o = [_tex("—" if pd.isna(v) else f"{v:.6g}" if isinstance(v, float) else v) for v in hang]
+                if rong_cot is not None:
+                    o = [v.replace(r"\_", r"\_\allowbreak ") for v in o]
+                dong.append(" & ".join(o) + r" \\")
+            dong.extend([r"\bottomrule", r"\end{longtable}"] + ([r"\normalsize"] if rong_cot is not None else []) + [""])
+        tex.write_text("\n".join(dong), encoding="utf-8")
+        self.tep.extend([csv, tex])
+
+    def luu_tabular(self, bang, ten, ghi_chu="", ten_cot=None, rong_cot=None):
+        """Bảng thân chương: caption do báo cáo đặt; ghi chú luôn sau bảng."""
+        if bang.empty:
+            thong_bao(ten, "bảng rỗng")
+            return
+        self.bang.mkdir(parents=True, exist_ok=True)
+        csv = self.bang / f"{ten}.csv"
+        bang.to_csv(csv, index=False, encoding="utf-8-sig")
+        rong = rong_cot or [1 / len(bang.columns)] * len(bang.columns)
+        kieu = "".join(r">{\raggedright\arraybackslash}p{\dimexpr"
+                       f"{r:.3f}\\linewidth-{2*len(rong)*r:.3f}\\tabcolsep\\relax}}"
+                       for r in rong)
+        dong = [r"% Cần \usepackage{array,booktabs}", r"\begingroup", r"\centering", r"\small",
+                r"\begin{tabular}{" + kieu + "}", r"\toprule",
+                " & ".join((ten_cot or {}).get(c, _tex(c)) for c in bang) + r" \\",
+                r"\midrule"]
+        for hang in bang.itertuples(index=False, name=None):
+            dong.append(" & ".join(_tex("—" if pd.isna(v) else
+                                       f"{v:g}".replace(".", ",") if c == "ratio" else
+                                       f"{v:.2f}".replace(".", ",") if isinstance(v, float) else v)
+                                   for c, v in zip(bang.columns, hang)) + r" \\")
+        dong.extend([r"\bottomrule", r"\end{tabular}"])
+        if ghi_chu:
+            dong.append(r"\par\smallskip{\footnotesize " + _tex(ghi_chu) + "}")
+        dong.extend([r"\endgroup", ""])
+        tex = csv.with_suffix(".tex")
         tex.write_text("\n".join(dong), encoding="utf-8")
         self.tep.extend([csv, tex])
 
@@ -266,6 +327,89 @@ def _ve_sai_so(ax, x, d, ten):
                     color=line.get_color(), capsize=3)
 
 
+def _o_gon(hang, cot, chi_tb=False):
+    tb, sd = hang[cot + "_tb"], hang.get(cot + "_sd", np.nan)
+    if not np.isfinite(tb):
+        return "—"
+    so = lambda v: f"{v:.2f}".replace(".", ",")
+    if chi_tb or (np.isfinite(sd) and np.isclose(sd, 0, atol=1e-12, rtol=0)):
+        return so(tb)
+    return so(tb) + (" ± " + so(sd) if np.isfinite(sd) else " ± chưa xác định")
+
+
+def _bang_52_gon(ket_qua, out):
+    g = chon(ket_qua, kb=["KB1", "KB2"], cach="C", n_ao=100, sigma_lap=0.03)
+    cot = ["mo_hinh", "KB1_Csp", "KB1_Pd", "KB2_Csp", "KB2_Pd", "R2_KB1"]
+    hang = []
+    for mh in THU_TU_GON[:8]:
+        d = g.loc[g.mo_hinh == mh]
+        if d.empty:
+            continue
+        r = {"mo_hinh": TEN_GON[mh]}
+        for kb in ("KB1", "KB2"):
+            e = d.loc[d.kb == kb]
+            for c in ("Csp", "Pd"):
+                r[f"{kb}_{c}"] = _o_gon(e.iloc[0], f"MAPE_{c}") if not e.empty else "—"
+            if kb == "KB1":
+                r["R2_KB1"] = _o_gon(e.iloc[0], "R2_Csp") if not e.empty else "—"
+        hang.append(r)
+    out.luu_tabular(pd.DataFrame(hang, columns=cot), "bang_5_2_gon",
+                    "Cách C ×100, σ = 3%; trung bình điện cực rồi trung bình ± SD qua hạt giống.",
+                    {"mo_hinh": "Mô hình", "KB1_Csp": r"KB1 MAPE $C_{sp}$ (\%)",
+                     "KB1_Pd": r"KB1 MAPE $P_d$ (\%)", "KB2_Csp": r"KB2 MAPE $C_{sp}$ (\%)",
+                     "KB2_Pd": r"KB2 MAPE $P_d$ (\%)", "R2_KB1": r"$R^2$ $C_{sp}$ KB1"},
+                    [0.18, 0.164, 0.164, 0.164, 0.164, 0.164])
+
+
+def _bang_53_gon(ket_qua, out):
+    g = ket_qua.loc[ket_qua.cach.eq("A") |
+                   (ket_qua.cach.isin(["B", "C", "D"]) & ket_qua.n_ao.eq(100) &
+                    np.isclose(ket_qua.sigma_lap, 0.03))]
+    hang = []
+    for kb in ("KB1", "KB2"):
+        for mh in ("gpr", "mlp", "svr"):
+            d = g.loc[(g.kb == kb) & (g.mo_hinh == mh)]
+            if d.empty:
+                continue
+            r = {"kb": kb, "mo_hinh": TEN_GON[mh]}
+            for cach in "ABCD":
+                e = d.loc[d.cach == cach]
+                r[cach] = float(e.MAPE_Csp_tb.iloc[0]) if not e.empty else np.nan
+            hang.append(r)
+    moc = []
+    for kb in ("KB1", "KB2"):
+        d = ket_qua.loc[(ket_qua.kb == kb) & (ket_qua.mo_hinh == "chon_dang_ham")]
+        if not d.empty:
+            moc.append(_o_gon(d.iloc[0], "MAPE_Csp", chi_tb=True) + f"% ({kb})")
+    ghi_chu = "MAPE Csp (%), trung bình qua hạt giống; B, C, D ×100, σ = 3%. A chỉ dùng số đo thật."
+    if moc:
+        ghi_chu += " Đường khớp dạng hàm (mốc của D) đạt " + " và ".join(moc) + "."
+    out.luu_tabular(pd.DataFrame(hang, columns=["kb", "mo_hinh", *"ABCD"]),
+                    "bang_5_3_gon", ghi_chu, {"kb": "KB", "mo_hinh": "Mô hình"})
+
+
+def _bang_56_gon(ket_qua, out):
+    g = chon(ket_qua, cach="C", n_ao=100, sigma_lap=0.03)
+    cot = ["mo_hinh", "bien_Csp", "bien_Pd", "trong_Csp", "trong_Pd"]
+    hang = []
+    for mh in THU_TU_GON:
+        d = g.loc[g.mo_hinh == mh]
+        if d.empty:
+            continue
+        r = {"mo_hinh": TEN_GON[mh]}
+        for vung, ma in (("biên", "bien"), ("trong", "trong")):
+            e = d.loc[d.vung == vung]
+            for c in ("Csp", "Pd"):
+                r[f"{ma}_{c}"] = _o_gon(e.iloc[0], f"MAPE_{c}") if not e.empty else "—"
+        hang.append(r)
+    out.luu_tabular(pd.DataFrame(hang, columns=cot), "bang_5_6_gon",
+                    "MAPE (%), cách C ×100, σ = 3%; biên = tỉ lệ 0,025 và 1,75. "
+                    "Trung bình điện cực rồi trung bình ± SD qua hạt giống.",
+                    {"mo_hinh": "Mô hình", "bien_Csp": r"Biên $C_{sp}$", "bien_Pd": r"Biên $P_d$",
+                     "trong_Csp": r"Trong $C_{sp}$", "trong_Pd": r"Trong $P_d$"},
+                    [0.20, 0.20, 0.20, 0.20, 0.20])
+
+
 def bang_chinh(bang, out):
     g = _chon_c_gan_nhat(chon(bang, kb=["KB1", "KB2", "KB2_BO_0.075"]), ["kb", "mo_hinh"])
     if not du_cot(g, CAU_HINH + ["seed", "ratio", "Csp", "Csp_hat", "Pd", "Pd_hat"], "Bảng 5.2"):
@@ -296,6 +440,7 @@ def bang_chinh(bang, out):
                             "t_sinh_s", "t_hoc_s", "t_du_doan_s"]
     if (~la_do_thi).any():
         out.luu_bang(ket_qua.loc[~la_do_thi], "bang_5_2", ghi_chu, cot_tex=cot_chinh_tex)
+        _bang_52_gon(ket_qua, out)
     if la_do_thi.any():
         phu_luc = ket_qua.loc[la_do_thi].copy()
         phu_luc["ten_bang"] = "Phụ lục: mô hình đồ thị (tham khảo)"
@@ -402,6 +547,7 @@ def anh_huong_ao(bang, out):
         out.luu_bang(bang_53, "bang_5_3",
                      "MAPE theo điện cực rồi seed; A chỉ dùng số đo thật. Mốc chon_dang_ham là đường khớp sinh dữ liệu D, "
                      "không phụ thuộc tăng cường: một bản/điểm/seed, ưu tiên kết quả A; n_ao=0, sigma=0 nghĩa là không áp dụng.")
+        _bang_53_gon(bang_53, out)
         cac_kiem_dinh = []
         for (kb, ten), d in dc.groupby(["kb", "mo_hinh"]):
             # Họ Holm riêng cho (KB, mô hình), không gộp các mô hình độc lập.
@@ -490,11 +636,19 @@ def kb3(bang, out):
             d = d.sort_values("k")
             _ve_sai_so(ax, d.k, d, TEN.get(mh, mh))
         ax.axhline(10, color="black", linestyle="--", label="Ngưỡng 10%")
-        ax.set(title=nhan, xlabel="Số mức dòng đã đo k", ylabel="MAPE Csp phần bị giấu (%)", xlim=(1, 5), xticks=range(1, 6))
-        ax.secondary_xaxis("top", functions=(lambda k: (6-k)/6, lambda q: 6-6*q)).set_xlabel("q(k) = (6 − k)/6: phần phép đo tiết kiệm")
-        ax.grid(alpha=0.2)
+        ax.set_yscale("log")
+        vuot = t.loc[(t.chinh_sach == cs) & (t.MAPE_Csp_tb > TRAN_KB3)]
+        for i, r in enumerate(vuot.itertuples()):
+            ax.annotate(f"{TEN.get(r.mo_hinh, r.mo_hinh)}, k={int(r.k)}: {r.MAPE_Csp_tb:.1e}% (ngoài trục)",
+                        xy=(r.k, TRAN_KB3), xytext=(r.k + 0.15, TRAN_KB3 / 2 / (2 ** i)),
+                        fontsize=8, arrowprops=dict(arrowstyle="->", lw=0.8))
+        if not vuot.empty:
+            ax.set_ylim(top=TRAN_KB3)
+        ax.set(title=nhan, xlabel="Số mức dòng đã đo k", ylabel="MAPE Csp phần bị giấu (%, thang log)", xlim=(1, 5), xticks=range(1, 6))
+        ax.secondary_xaxis("top", functions=(lambda k: (6-k)/6, lambda q: 6-6*q)).set_xlabel("q(k) = (6 − k)/6: tỉ lệ giảm số lượt đo (lý thuyết)")
+        ax.grid(which="both", alpha=0.2)
         ax.legend(fontsize=8)
-    out.luu_hinh(fig, "hinh_5_6", f"C ×{g.n_ao.iloc[0]:g}, σ=3%; ngưỡng áp dụng cho MAPE trung bình.\n" + _nhan_seed(t))
+    out.luu_hinh(fig, "hinh_5_6", f"C ×{g.n_ao.iloc[0]:g}, σ=3%; ngưỡng áp dụng cho MAPE trung bình; trục tung log, trần {TRAN_KB3:g}%.\n" + _nhan_seed(t))
     hang = []
     for (cs, mh), d in t.groupby(["chinh_sach", "mo_hinh"]):
         dat = d.loc[d.MAPE_Csp_tb < 10].sort_values("k")
@@ -517,7 +671,9 @@ def kb4(bang, out):
         return
     g["vung"] = np.where(np.isclose(g.ratio, DANH_MUC_TI_LE[0]) | np.isclose(g.ratio, DANH_MUC_TI_LE[-1]), "biên", "trong")
     nhom = CAU_HINH + ["vung"]
-    out.luu_bang(tong_hop(theo_dien_cuc(g, nhom), nhom), "bang_5_6", "Giấu trọn điện cực; không gộp cấu hình; biên = tỉ lệ 0.025 và 1.75.")
+    ket_qua = tong_hop(theo_dien_cuc(g, nhom), nhom)
+    out.luu_bang(ket_qua, "bang_5_6", "Giấu trọn điện cực; không gộp cấu hình; biên = tỉ lệ 0.025 và 1.75.")
+    _bang_56_gon(ket_qua, out)
 
 
 def do_phu(bang, out):

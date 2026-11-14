@@ -1,0 +1,11 @@
+﻿chinh_sach,mo_hinh,k_nho_nhat,q,MAPE_tb,MAPE_dien_cuc_lon_nhat
+thap_nhat,chon_dang_ham,,,,
+thap_nhat,gpr,,,,
+thap_nhat,mlp,,,,
+thap_nhat,ridge,,,,
+thap_nhat,svr,,,,
+trai_deu,chon_dang_ham,5.0,0.16666666666666666,8.480180102387356,24.23608687920999
+trai_deu,gpr,,,,
+trai_deu,mlp,,,,
+trai_deu,ridge,5.0,0.16666666666666666,8.586432695268591,30.815910058875136
+trai_deu,svr,5.0,0.16666666666666666,5.424818633316235,11.253210193189103

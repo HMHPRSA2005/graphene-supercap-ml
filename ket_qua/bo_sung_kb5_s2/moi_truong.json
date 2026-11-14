@@ -1,0 +1,53 @@
+[
+  {
+    "python": "3.12.10",
+    "thu_vien": {
+      "numpy": "2.5.3",
+      "pandas": "3.1.0",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.1",
+      "joblib": "1.6.0",
+      "matplotlib": "3.11.2",
+      "openpyxl": "3.1.5"
+    },
+    "he_dieu_hanh": "Windows-11-10.0.26220-SP0",
+    "cpu": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+    "so_nhan": 16,
+    "thoi_diem": "2026-11-13T01:04:17.020540+00:00",
+    "cli": "ml.chay_kb5",
+    "argv": [
+      "--thu-muc",
+      "ket_qua/bo_sung_kb5_s2",
+      "--seeds",
+      "2"
+    ],
+    "lenh": [
+      "C:\\Users\\Owner\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "-X",
+      "utf8",
+      "-m",
+      "ml.chay_kb5",
+      "--thu-muc",
+      "ket_qua/bo_sung_kb5_s2",
+      "--seeds",
+      "2"
+    ],
+    "tuy_chon": {
+      "thu_muc": "ket_qua/bo_sung_kb5_s2",
+      "seeds": [
+        2
+      ],
+      "phuong_phap": [
+        "mlp_hoc_lai",
+        "mlp_tinh_chinh",
+        "gng_r",
+        "pgcn_r"
+      ],
+      "doi_thu_tu": false,
+      "n_ao": null,
+      "moi_buoc": 2000,
+      "tham_so_pgcn": "{}",
+      "nhanh": false
+    }
+  }
+]

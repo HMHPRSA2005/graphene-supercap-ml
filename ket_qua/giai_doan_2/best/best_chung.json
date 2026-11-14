@@ -1,0 +1,50 @@
+{
+  "muc_tieu": "chung",
+  "kb_danh_gia": [
+    "KB1",
+    "KB2"
+  ],
+  "ghi_chu": "khớp lại toàn bộ 48 số đo để sử dụng; độ tin cậy xem MAPE kiểm tra trong .json",
+  "cau_hinh": {
+    "mo_hinh": "svr",
+    "cach": "C",
+    "n_ao": 100,
+    "sigma_lap": 0.01,
+    "kieu_ma_hoa": "onehot",
+    "cau_hinh_chon": "{\"gioi_han_hang\":null,\"n_ao_chon\":3,\"ngan_sach_chon\":null,\"rut_gon\":false}",
+    "tham_so": "{\"C\": 100, \"epsilon\": 0.01, \"gamma\": 0.1}"
+  },
+  "seed_khop": 0,
+  "diem": 24.610834443629773,
+  "chi_tiet_kb": {
+    "KB1": {
+      "MAPE_Csp": 9.5031439682737,
+      "MAPE_Csp_sd": 0.09003109115656407,
+      "MAPE_Pd": 10.611583328836625,
+      "MAPE_Pd_sd": 0.07713665005443937,
+      "diem": 10.057363648555162
+    },
+    "KB2": {
+      "MAPE_Csp": 59.2919546994339,
+      "MAPE_Csp_sd": 0.44535438913773234,
+      "MAPE_Pd": 19.036655777974865,
+      "MAPE_Pd_sd": 0.16262675757559722,
+      "diem": 39.16430523870439
+    }
+  },
+  "so_seed": 10,
+  "ti_le_chon_tham_so": 0.5625,
+  "so_ung_vien": 38,
+  "so_hang_hoc": 2000,
+  "ho_tro_khoang": false,
+  "phien_ban": {
+    "python": "3.12.10",
+    "numpy": "2.5.3",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "thoi_diem": "2026-11-12T13:51:00+00:00",
+  "nguon": "ket_qua\\giai_doan_1\\ket_qua_kb1_kb4.csv"
+}
