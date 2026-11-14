@@ -1,4 +1,4 @@
-# Dự đoán điện cực siêu tụ — Chương 4–5
+# Dự đoán điện cực siêu tụ
 
 Dự đoán **Csp** (F/g), điện thế xả trung bình **V̄** (V), suy **Ed** (Wh/kg), **Pd** (W/kg), thời gian xả; so sánh 8 điện cực tại **cùng mật độ dòng J (A/g)**. Ứng dụng là CLI trong terminal, không phải giao diện web. Python 3.10+ (local đang dùng 3.12), NumPy 2.0+; mọi lệnh dưới đây chạy từ **Code/**.
 
