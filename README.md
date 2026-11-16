@@ -2,7 +2,7 @@
 
 Dự đoán **Csp** (F/g), điện thế xả trung bình **V̄** (V), suy **Ed** (Wh/kg), **Pd** (W/kg), thời gian xả; so sánh 8 điện cực tại **cùng mật độ dòng J (A/g)**. Ứng dụng là CLI trong terminal, không phải giao diện web. Python 3.10+ (local đang dùng 3.12), NumPy 2.0+; mọi lệnh dưới đây chạy từ **Code/**.
 
-Nguồn mục tiêu, số liệu, công thức: **“Dữ liệu điện hóa.docx” — NTM.Hồng & LD.Phúc**. Tài liệu Tân (PGCN), Giang (Electro:Sense), cô Nhạn chỉ tham khảo. KB1 nội suy mức chưa đo, KB2 ngoại suy dòng cao, KB3 chỉ đo ít mức; KB4 chỉ phân tích giới hạn với điện cực mới, **không hứa tìm tỉ lệ tối ưu**. Nhận xét ratio 0,1 tối ưu trong tài liệu nguồn phải được đối chiếu bằng so sánh cùng J, không áp đặt lên mô hình.
+Nguồn mục tiêu, số liệu, công thức: **“Dữ liệu điện hóa.docx” — NTM.Hồng & LD.Phúc**. 
 
 ## Hai giai đoạn, một sản phẩm bàn giao
 
